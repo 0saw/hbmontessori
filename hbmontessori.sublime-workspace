@@ -1,0 +1,748 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"page",
+				"pagekidsdeeper"
+			],
+			[
+				"flex",
+				"flex-start"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"elem",
+				"element"
+			],
+			[
+				"getEl",
+				"getElementById"
+			],
+			[
+				"documen",
+				"document"
+			],
+			[
+				"scr",
+				"scrollToElement"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"scroll",
+				"scrollEvent"
+			],
+			[
+				"REQUE",
+				"REQUEST_URI"
+			],
+			[
+				"Rew",
+				"RewriteCond"
+			],
+			[
+				"ease-",
+				"ease-out"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"url",
+				"url_key"
+			],
+			[
+				"anim-",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"ani",
+				"anim	animation"
+			],
+			[
+				"an",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"s",
+				"space-around"
+			],
+			[
+				"html",
+				"htmlentities"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n	<meta charset=\"utf-8\">\n	<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no\" />\n	<title>Билингвальный детский сад в Крылатском Дошкольное образование по мировым стандартам Монтессори</title>\n\n	<!-- @if ENV='dev' -->\n	<link rel=\"stylesheet\" href=\"styles/main.css\">\n	<!-- @endif -->\n	<!-- @if ENV='prod' -->\n	<link rel=\"stylesheet\" href=\"styles/main.min.css\">\n	<!-- @endif -->\n\n	<!-- @include inc/_meta.html -->\n\n	<!-- @include inc/_favicons.html -->\n</head>\n<body>\n	<!-- @include inc/_browserhappy.html -->\n\n	<div id=\"main\" class=\"viewport\">\n    <header class=\"header\">\n      <div class=\"wrapper\">\n        <div class=\"header__container\">\n          <div class=\"header__col header__logo\">\n            <a href=\"/\"><img src=\"images/logo.png\" alt=\"Билингвальный детский сад в Крылатском\" /></a>\n          </div>\n          <div class=\"header__col header__lang\">\n            <span><img src=\"images/ru.png\" alt=\"\" /></span>\n            <a href=\"/eng\"><img src=\"images/en.png\" alt=\"\" /></a>\n          </div>\n          <div class=\"header__col header__info\">\n            <div>+7 (499) 750 - 13 - 87</div>\n            <a class=\"button button_header\">Закажите обратный звонок</a>\n          </div>\n        </div>\n        <div class=\"header__desc\">\n          Билингвальный детский сад в Крылатском\n          <div>Дошкольное образование по мировым стандартам Монтессори</div>\n        </div>\n        <nav class=\"nav\">\n          <ul>\n            <li><a href=\"#toddler\">Toddler Community</a></li>\n            <li><a href=\"#primary\">Primary Community</a></li>\n            <li><a href=\"#ourteam\">Наша команда</a></li>\n            <li><a href=\"#cabinet\">Личный кабинет</a></li>\n            <li><a href=\"#location\">Как нас найти</a></li>\n          </ul>\n        </nav>\n        <div class=\"slider slider_home\">\n          <div class=\"slider__item\">\n            <img src=\"slider/1.jpg\" />\n            <div class=\"slider__desc\">&laquo;&emsp;Дети – это люди, данные нам<br />на время, и от нас зависит<br />их вера в себя и любовь к миру.&emsp;&raquo;</div>\n          </div>\n          <div class=\"slider__item\">\n            <img src=\"slider/2.jpg\" />\n            <div class=\"slider__desc\">&laquo;&emsp; Научиться можно только тому,<br> что любишь&emsp;&raquo;</div>\n          </div>\n          <div class=\"slider__item\">\n            <img src=\"slider/3.jpg\" />\n            <div class=\"slider__desc\">&laquo;&emsp; Ребенок – это не сосуд, <br>который надо заполнить знаниями, <br> а факел, который нужно зажечь. &emsp;&raquo;</div>\n          </div>\n        </div>\n        <div class=\"header__form\">\n          <form action=\"\" class=\"form form__header\">\n            <label for=\"name-32\" class=\"form__field\">\n              <input type=\"text\" name=\"name-32\" id=\"name-32\" required /><span>*</span>\n            </label>\n            <label for=\"phone-32\" class=\"form__field\">\n              <input type=\"tel\" name=\"phone-32\" id=\"phone-32\" pattern=\"^[0-9- \\(\\)]*$\" required /><span>*</span>\n            </label>\n            <label for=\"email-32\" class=\"form__field\">\n              <input type=\"email\" name=\"email-32\" id=\"email-32\" /><span>*</span>\n            </label>\n            <div class=\"success_message\" style=\"display: none;\">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>\n            <input type=\"submit\" value=\"Записаться\" />\n          </form>\n          <div class=\"header__warning\">*Количество мест в группе ограничено</div>\n        </div>\n      </div>\n    </header>\n\n    section.advantages\n  </div>\n\n	<!-- @if ENV='dev' -->\n	<script src=\"scripts/vendor.js\"></script>\n	<script src=\"scripts/main.js\"></script>\n	<!-- @endif -->\n	<!-- @if ENV='prod' -->\n	<script src=\"scripts/vendor.min.js\"></script>\n	<script src=\"scripts/main.min.js\"></script>\n	<!-- @endif -->\n\n	<!-- //@include inc/_analytics.html -->\n</body>\n</html>\n",
+			"file": "src/index.html",
+			"file_size": 4475,
+			"file_write_time": 131176290317281509,
+			"settings":
+			{
+				"buffer_size": 3973,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/iamle/AppData/Local/Temp/scp13038/index.html",
+			"settings":
+			{
+				"buffer_size": 51347,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 229.0,
+		"last_filter": "minif",
+		"selected_items":
+		[
+			[
+				"minif",
+				"HTML Minfier: Minify File (create new)"
+			],
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"set coffe",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable ",
+				"Package Control: Disable Package"
+			],
+			[
+				"auto",
+				"Autoprefix CSS"
+			],
+			[
+				"comb",
+				"Run CSScomb"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"pret",
+				"HTMLPrettify"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"setphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"p",
+				"Permute Lines: Reverse"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"synt html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set s",
+				"Set Syntax: SQL"
+			],
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"htmlpre",
+				"HTMLPrettify"
+			],
+			[
+				"mat",
+				"Material Theme: Activate theme"
+			],
+			[
+				"aut",
+				"Autoprefix CSS"
+			],
+			[
+				"color",
+				"Color Picker"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/package.json",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/package.json",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/inc/header.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/contacts.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/inc/_form.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/dist/contacts.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/dist/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp59532/templates/zt_beauty/index.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp18558/iht/public_html/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp20766/public_html/index.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp20694/public_html/index.htm",
+		"/C/Users/iamle/AppData/Local/Temp/scp20311/detki/public_html/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/inc/front-slider.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/dist/scripts/vendor.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/dist/scripts/vendor.min.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/styles/main.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/styles/modules/main.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/scripts/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/inc/pushy.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/news.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/partneram.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/src/scripts/main.coffee",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/otzyvy.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/styles/modules/reviews.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/scripts/views/forms.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/src/scripts/views/forms.coffee",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/src/reviews.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/31.08.16/src/reviews.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/styles/modules/front-slider.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/cariera.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/proizvodstvo.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/catalog.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/about.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/modules/main.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/main.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/modules/_catalog.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/partneram.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/postavshikam.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/catalog-single.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/news.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/tceny.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/modules/footer.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/modules/news.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/responsive-2/src/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp24693/wp-content/themes/epixx/js/js.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp56709/wp-content/themes/epixx/page.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp57139/wp-content/themes/epixx/js/js.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp01704/wp-content/themes/epixx/css/style.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/31.08.16/src/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp26441/wp-content/themes/epixx/css/style.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp47388/wp-content/themes/epixx/page.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp08725/wp-content/themes/epixx/js/forms.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp08669/wp-content/themes/epixx/send.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp04175/www/health-spa.ru/wp-content/themes/healthspa/single-catalog.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp06340/www/health-spa.ru/wp-content/themes/healthspa/single-catalog.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp00795/www/health-spa.ru/wp-content/themes/healthspa/styles/custom.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/31.08.16/src/scripts/views/front-slider.coffee",
+		"/C/Users/iamle/AppData/Local/Temp/scp14167/templates/zt_beauty/index.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp40704/passada.tisrol1m.bget.ru/public_html/wp-content/themes/geraldzavod/scripts/main.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp13328/templates/zt_beauty/html/com_content/article/default.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp43539/wp-content/themes/bereg/header.php",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/31.08.16/dist/scripts/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/31.08.16/dist/scripts/vendor.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp39186/passada.tisrol1m.bget.ru/public_html/wp-content/themes/geraldzavod/styles/main.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/31.08.16/dist/styles/main.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp14496/templates/zt_beauty/html/com_content/article/uslugi.php",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/dist/styles/main.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp41891/blast_cleaning2/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/src/styles/main.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp37537/www/health-spa.ru/wp-content/themes/healthspa/styles/editor-styles.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp00608/www/health-spa.ru/wp-content/themes/healthspa/styles/slick-theme.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp37827/www/health-spa.ru/wp-content/themes/healthspa/scripts/custom.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp37275/www/health-spa.ru/wp-content/themes/healthspa/scripts/main.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp34853/www/health-spa.ru/wp-content/themes/healthspa/functions.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp00208/www/health-spa.ru/wp-content/themes/healthspa/styles/main.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp27706/www/health-spa.ru/wp-content/themes/healthspa/styles/slick.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp00632/www/health-spa.ru/wp-content/themes/healthspa/style.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp15831/www/health-spa.ru/wp-content/themes/healthspa/scripts/main.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp15351/www/health-spa.ru/wp-content/themes/healthspa/scripts/custom.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp26094/www/health-spa.ru/wp-content/themes/healthspa/single-catalog.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp44921/www/health-spa.ru/wp-content/themes/healthspa/functions.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp11409/www/health-spa.ru/wp-content/themes/healthspa/styles/custom.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp06354/hbmontessori/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp07820/hbmontessori/eng/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/scp11587/www/health-spa.ru/wp-content/themes/healthspa/styles/main.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp16335/www/health-spa.ru/wp-content/themes/healthspa/styles/slick-theme.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp42384/public_html/index.html",
+		"/C/Users/iamle/AppData/Roaming/Skype/My Skype Received Files/google56d3ff0306edfa19.html",
+		"/C/Users/iamle/AppData/Roaming/Skype/My Skype Received Files/google56d3ff0306edfa19(1).html",
+		"/C/Users/iamle/AppData/Local/Temp/scp16198/www/health-spa.ru/wp-content/themes/healthspa/scripts/slick.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/responsive/scss/reponsive.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/responsive/index.html",
+		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.202/sequence.min.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/js/showcase.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/js/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/js/js.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/index.old.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/style/style.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/scss/partials/modals.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp51789/blast_cleaning2/send.php",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/scss/partials/pushy.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/scss/responsive.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/js/wow.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp23235/templates/zt_beauty/css/pd.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/js/jquery.placeholder.min.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/style/jquery.formstyler.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/style/normalize.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/health-spa.ru/25.08.16/healthspa-copy/scripts/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/js/vminpoly.js",
+		"/C/Users/iamle/AppData/Roaming/Sublime Text 3/Packages/User/Emmet.sublime-settings",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/js/rem.js",
+		"/C/Users/iamle/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/style/twentytwenty.css",
+		"/C/Users/iamle/AppData/Roaming/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/style/reset.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/old/style/style.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/style/responsive.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/blast_cleaning/responsive/sass/responsive.scss",
+		"/C/Users/iamle/AppData/Roaming/npm/node_modules/sass-watch/app.js",
+		"/C/Users/iamle/AppData/Roaming/Sublime Text 3/Packages/Autoprefixer/Autoprefixer.sublime-settings",
+		"/C/Users/iamle/AppData/Roaming/Sublime Text 3/Packages/CSScomb/CSScomb.sublime-settings",
+		"/C/Users/iamle/AppData/Local/Temp/scp29253/masterprofi.net/www/design/profi/html/contact.tpl",
+		"/C/Users/iamle/AppData/Local/Temp/scp32093/www/health-spa.ru/wp-content/themes/healthspa/scripts/main.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp54379/www/health-spa.ru/wp-content/themes/healthspa/single-catalog.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp50405/www/health-spa.ru/wp-content/themes/healthspa/functions.php"
+	],
+	"find":
+	{
+		"height": 48.0
+	},
+	"find_in_files":
+	{
+		"height": 136.0,
+		"where_history":
+		[
+			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\geralzavod.ru\\responsive-2\\src",
+			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\body-clinic.ru\\newdump\\archive_18082016_0928",
+			"C:\\OpenServer\\domains\\temp.dev"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"name",
+			"phone",
+			"#nav",
+			"span",
+			"\">",
+			"href=\"#",
+			"href=\"",
+			"home",
+			"http://passada.tisrol1m.bget.ru/wp-content/uploads/2016/08/5-200x235.png",
+			"div",
+			"$minwidth: ",
+			"$minwidth",
+			"href=\"#\" cl",
+			"Gulp Frontend Boilerplate",
+			"Подзаголовок",
+			"container__col",
+			".content-page",
+			"-webkit",
+			"</td>",
+			"<td>",
+			"</tr>\n<tr>",
+			".callme",
+			"selectcity",
+			"mailHandlerURL",
+			"v",
+			"_",
+			"test",
+			"isValid",
+			"new_price",
+			"page",
+			"3500",
+			"gallery__container",
+			"title",
+			"id",
+			"h2",
+			"index",
+			"href",
+			"data",
+			"white",
+			"before",
+			"#ff",
+			"before",
+			"content",
+			"max-width",
+			"auto 100%",
+			".galler",
+			"#gallery2",
+			"$i",
+			"\n        array(  \n            'title' => 'Линия снизу',  \n            'block' => 'div',  \n            'classes' => 'line-bellow',\n            'wrapper' => false,\n        ),",
+			"my_post_gallery",
+			"http://hbmontessori.ru/",
+			"initPhotoswipe",
+			"аранти",
+			"#gallery2",
+			"\"/",
+			"welcome",
+			"font-size",
+			" font-size",
+			"font-size",
+			"width:",
+			"popup2",
+			",",
+			", #popup1Form",
+			"options",
+			"@media screen and (max-width: 40rem) {\n      width: 50%;",
+			"arrow",
+			"</li",
+			"</",
+			"<li",
+			"header",
+			"t_img",
+			"ight_img1",
+			"right_img",
+			"tab",
+			"этапа 1",
+			"div",
+			"5px",
+			"__headings",
+			"works__headings",
+			"Услуга",
+			"__header",
+			"header",
+			"inner",
+			"space",
+			"justify-space",
+			"flex-flow",
+			"flex",
+			"<div class=\"process__inner\">",
+			"justify-content",
+			"center",
+			"works__item",
+			"visibi",
+			".active",
+			"works__item",
+			"doSync",
+			"sync",
+			"works__item",
+			"active",
+			"#ff9b",
+			"rem",
+			"row",
+			"header",
+			"proces",
+			"offsetTop",
+			"isVi",
+			"box",
+			"isVisible",
+			"offsetTop",
+			"container",
+			"document.getElementById('container')",
+			"document.getElementById('#container')",
+			"#container",
+			"scroll",
+			"this.scrollElement",
+			"scrollElement",
+			"this.scrollElement",
+			"window",
+			"scrolled",
+			"scrollHandler",
+			"doc",
+			"body",
+			"div id",
+			"div",
+			"div id",
+			"div",
+			"id=\"f2",
+			"<a.*href=\"#",
+			"elements"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Geraldzavod",
+			"\"",
+			"  ",
+			"",
+			"$1",
+			"МО, г. Яхрома, ул. Вокзальная, дом 18",
+			"$1,\\n",
+			"$1",
+			"$1\\n",
+			"<!--$1noindex-->",
+			"$1<",
+			"$1",
+			"",
+			"$1;",
+			"~|~|",
+			" ~|~|",
+			" ",
+			"$1",
+			"",
+			"$1",
+			"",
+			"$1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3973,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2842,
+								2842
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1474.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/Users/iamle/AppData/Local/Temp/scp13038/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51347,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10026,
+								10026
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Material-Theme-Darker.tmTheme",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 5998.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "hbmontessori.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 202.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

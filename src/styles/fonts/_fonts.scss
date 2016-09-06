@@ -1,0 +1,135 @@
+// @import 'node_modules/sass-font-face/_font-face';
+
+// $font-regular: 'Open Sans Regular';
+
+// @include font-face($font-regular, 'fonts/', 'OpenSans-Regular-webfont', 'open_sansregular');
+
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('fonts/subset-ArialNarrow-BoldItalic.eot');
+  src: url('fonts/subset-ArialNarrow-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-ArialNarrow-BoldItalic.woff') format('woff'),
+    url('fonts/subset-ArialNarrow-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Clinica Pro Rg';
+  src: url('fonts/subset-ClinicaPro-Regular.eot');
+  src: url('fonts/subset-ClinicaPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-ClinicaPro-Regular.woff') format('woff'),
+    url('fonts/subset-ClinicaPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AGLettericaCondL';
+  src: url('fonts/subset-AGLettericaCondL-Regular.eot');
+  src: url('fonts/subset-AGLettericaCondL-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-AGLettericaCondL-Regular.woff') format('woff'),
+    url('fonts/subset-AGLettericaCondL-Regular.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('fonts/subset-MyriadPro-Regular.eot');
+  src: url('fonts/subset-MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-MyriadPro-Regular.woff') format('woff'),
+    url('fonts/subset-MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('fonts/subset-ArialNarrow-Bold.eot');
+  src: url('fonts/subset-ArialNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-ArialNarrow-Bold.woff') format('woff'),
+    url('fonts/subset-ArialNarrow-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF Bulletin Sans Pro';
+  src: url('fonts/subset-PFBulletinSansPro-Regular.eot');
+  src: url('fonts/subset-PFBulletinSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-PFBulletinSansPro-Regular.woff') format('woff'),
+    url('fonts/subset-PFBulletinSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('fonts/subset-PFBeauSansPro-Thin.eot');
+  src: url('fonts/subset-PFBeauSansPro-Thin.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-PFBeauSansPro-Thin.woff') format('woff'),
+    url('fonts/subset-PFBeauSansPro-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('fonts/subset-MyriadPro-Semibold.eot');
+  src: url('fonts/subset-MyriadPro-Semibold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-MyriadPro-Semibold.woff') format('woff'),
+    url('fonts/subset-MyriadPro-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('fonts/subset-ArialNarrow-Italic.eot');
+  src: url('fonts/subset-ArialNarrow-Italic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-ArialNarrow-Italic.woff') format('woff'),
+    url('fonts/subset-ArialNarrow-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('fonts/subset-PFBeauSansPro-Regular.eot');
+  src: url('fonts/subset-PFBeauSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-PFBeauSansPro-Regular.woff') format('woff'),
+    url('fonts/subset-PFBeauSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PF BeauSans Pro';
+  src: url('fonts/subset-PFBeauSansPro-Bold.eot');
+  src: url('fonts/subset-PFBeauSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-PFBeauSansPro-Bold.woff') format('woff'),
+    url('fonts/subset-PFBeauSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('fonts/subset-ArialNarrow.eot');
+  src: url('fonts/subset-ArialNarrow.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-ArialNarrow.woff') format('woff'),
+    url('fonts/subset-ArialNarrow.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Arial Narrow';
+  src: url('fonts/subset-ArialNarrow-Bold.eot');
+  src: url('fonts/subset-ArialNarrow-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/subset-ArialNarrow-Bold.woff') format('woff'),
+    url('fonts/subset-ArialNarrow-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

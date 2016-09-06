@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Билингвальный детский сад в Крылатском Дошкольное образование по мировым стандартам Монтессори</title>
+
+	<!-- @if ENV='dev' -->
+	<link rel="stylesheet" href="styles/main.css">
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<link rel="stylesheet" href="styles/main.min.css">
+	<!-- @endif -->
+
+	<!-- @include inc/_meta.html -->
+
+	<!-- @include inc/_favicons.html -->
+</head>
+<body>
+	<!-- @include inc/_browserhappy.html -->
+
+	<div id="main" class="viewport">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__container">
+          <div class="header__col header__logo">
+            <a href="/"><img src="images/logo.png" alt="Билингвальный детский сад в Крылатском" /></a>
+          </div>
+          <div class="header__col header__lang">
+            <span><img src="images/ru.png" alt="" /></span>
+            <a href="/eng"><img src="images/en.png" alt="" /></a>
+          </div>
+          <div class="header__col header__info">
+            <div>+7 (499) 750 - 13 - 87</div>
+            <a class="button button_header">Закажите обратный звонок</a>
+          </div>
+        </div>
+        <div class="header__desc">
+          Билингвальный детский сад в Крылатском
+          <div>Дошкольное образование по мировым стандартам Монтессори</div>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="#toddler">Toddler Community</a></li>
+            <li><a href="#primary">Primary Community</a></li>
+            <li><a href="#ourteam">Наша команда</a></li>
+            <li><a href="#cabinet">Личный кабинет</a></li>
+            <li><a href="#location">Как нас найти</a></li>
+          </ul>
+        </nav>
+        <div class="slider slider_home">
+          <div class="slider__item">
+            <img src="slider/1.jpg" />
+            <div class="slider__desc">&laquo;&emsp;Дети – это люди, данные нам<br />на время, и от нас зависит<br />их вера в себя и любовь к миру.&emsp;&raquo;</div>
+          </div>
+          <div class="slider__item">
+            <img src="slider/2.jpg" />
+            <div class="slider__desc">&laquo;&emsp; Научиться можно только тому,<br> что любишь&emsp;&raquo;</div>
+          </div>
+          <div class="slider__item">
+            <img src="slider/3.jpg" />
+            <div class="slider__desc">&laquo;&emsp; Ребенок – это не сосуд, <br>который надо заполнить знаниями, <br> а факел, который нужно зажечь. &emsp;&raquo;</div>
+          </div>
+        </div>
+        <div class="header__form">
+          <form class="form form_header">
+            <label for="name-32" class="form__field">
+              <input type="text" name="name-32" id="name-32" required /><span>*</span>
+            </label>
+            <label for="phone-32" class="form__field">
+              <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
+            </label>
+            <label for="email-32" class="form__field">
+              <input type="email" name="email-32" id="email-32" /><span>*</span>
+            </label>
+            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+            <input type="submit" value="Записаться" />
+          </form>
+          <div class="header__warning">*Количество мест в группе ограничено</div>
+        </div>
+      </div>
+    </header>
+
+    <section class="benefits">
+      <div class="wrapper">
+        <h1>HappyBee</h1>
+        <h2 class="benefits__header">
+          это двуязычное образование с носителями языка по международным стандартам Монтессори для детей дошкольного возраста.
+        </h2>
+        <div class="benefits__title">Детский сад, где ваш ребенок счастлив учась.</div>
+        <div class="benefits__container">
+          <div class="benefits__item">Обучение на двух языках (английский и русский) с носителями языка</div>
+          <div class="benefits__item">Опытные педагоги, прошедшие подготовку в лучших мировых Монтессори-центрах</div>
+          <div class="benefits__item">Индивидуальный план обучения для вашего ребенка, соответствующий его интересам и потребностям</div>
+          <div class="benefits__item">Современный метод образования, основанный на принципах естественного развития ребенка</div>
+          <div class="benefits__item">Развитие лидерских качеств и навыков ребенка</div>
+          <div class="benefits__item">Атмосфера доверия и поддержки, где раскрывают таланты ребенка</div>
+          <div class="benefits__item">Расположение в уникальном тихом и безопасном месте г. Москвы, район Крылатское, между Москва-рекой и Гребным каналом</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="enterfee">
+      <div class="wrapper">
+        <header class="enterfee__header">Отсутствие вступительного взноса до 10 сентября!</header>
+        <div class="enterfee__subtitle">Запишитесь на бесплатную <img src="images/vel.png" alt="Велосипед"> ознакомительную экскурсию!</div>
+        <form class="form form_page">
+          <fieldset>
+            <legend align="center">Идет набор в группу Primary Community</legend>
+            <label for="name-32" class="form__field">
+              <input type="text" name="name-32" id="name-32" required /><span>*</span>
+            </label>
+            <label for="phone-32" class="form__field">
+              <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
+            </label>
+            <label for="email-32" class="form__field">
+              <input type="email" name="email-32" id="email-32" /><span>*</span>
+            </label>
+            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+            <div class="form__submit">
+              <input type="submit" value="Записаться на экскурсию" />
+            </div>
+            <div class="header__warning">*Количество мест в группе ограничено</div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <section class="group group_1">
+      <div class="wrapper">
+        <h2 class="group__header">Группа Toddler Community</h2>
+        <div class="group__container">
+          <div class="group__image"></div>
+          <div class="group__info">
+            <div class="group__title group__line">Для детей в возрасте от 18 месяцев до 3 лет</div>
+            <div class="group__line">с 9.00 до 17.00</div>
+            <div class="group__line">трехразовое питание</div>
+            <div>
+              Преподаватель:
+              <div class="group__sub">
+                Монтессори педагог с международной квалификацией (Association Montessori Internationale)
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group__text">
+          <p>Для малышей в возрасте от 18 месяцев до 3 лет мы предлагаем программу Toddler Community – уникальную домашнюю атмосферу. Целью программы является поддержание, содействие и уважение естественного развития каждого ребенка.</p>
+          <p>В возрасте до 3 лет – ребенок буквально впитывает знания из всего, что его окружает. Поэтому мы создали для Вашего малыша максимально продуманную, безопасную и насыщенную среду, удовлетворяющую его индивидуальным потребностям. Большое внимание уделяется развитию мелкой моторики, зрительно-моторной координации и навыкам заботы о себе (самостоятельное одевание, причесывание, пользование туалетом и тд).</p>
+          <p>Мы стимулируем каждого ребенка к общению и словесному самовыражению. Расширяем их словарный запас через чтение книг и стихов, занимаемся музыкой и играем на музыкальных инструментах.</p>
+          <p>В Toddler Community ребенок развивается в естественном для него ритме, выбирает то, что нужно для его индивидуального развития, становится уверенным в себе и самостоятельным, учится проявлять заботу и уважение к окружающему миру.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="group group_2">
+      <div class="wrapper">
+        <h2 class="group__header">Группа Primary Community</h2>
+        <div class="group__container">
+          <div class="group__image"></div>
+          <div class="group__info">
+            <div class="group__title group__line">
+              Для детей в возрасте <br> от 2,5 до 5/6 лет
+            </div>
+            <div class="group__line">с 9.00 до 19.00</div>
+            <div class="group__line">четырехразовое питание</div>
+            <div>
+              Преподаватель:
+              <div class="group__sub">
+                Монтессори педагоги с международной квалификацией (Association Montessori Internationale), носитель английского языка с опытом работы в мультикультурном классе/среде.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="group__text">
+          <p>В возрасте от 2,5 до 6 лет закладываются базовые жизненные установки, мироощущение, отношения к себе, другим, окружающему миру. Ребенок в этот период очень любопытен и любознателен, ему необходимо все исследовать и изучить, словно губка он впитывает все, что предоставляет ему окружающая среда. Наш Монтессори-класс предназначен для поощрения такого поведения.</p>
+          <p>В HappyBee Монтессори центре мы достигаем этой цели двигаясь по двум направлениям: c одной стороны, позволяя ребенку самому выбирать материалы и деятельность, не быть ведомым; c другой – помогая ему совершенствоваться в выбранном предмете, направляя и подсказывая в нужный момент.</p>
+          <p>Класс Primary Community отличается от классического дошкольного – здесь все пространство адаптировано для ребенка и план обучения составляется для каждого индивидуально, с учетом его интересов и потребностей, готовности и темпа освоения новых знаний. Образовательная программа Primary Community включает занятия по русскому и английскому языкам, математике, развитию навыков практической жизни, сенсорному развитию, географии, ботанике, музыке и искусству.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wannabesmart">
+      <div class="wrapper">
+        <header class="wannabesmart__header">Хочу знать больше!</header>
+        <form class="form form_page">
+          <fieldset>
+            <legend align="center">Идет набор в группу Primary Community</legend>
+            <label for="name-32" class="form__field">
+              <input type="text" name="name-32" id="name-32" required /><span>*</span>
+            </label>
+            <label for="phone-32" class="form__field">
+              <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
+            </label>
+            <label for="email-32" class="form__field">
+              <input type="email" name="email-32" id="email-32" /><span>*</span>
+            </label>
+            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+            <div class="form__submit">
+              <input type="submit" value="Записаться на экскурсию" />
+            </div>
+            <div class="header__warning">*Количество мест в группе ограничено</div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <section class="facts">
+      <div class="wrapper">
+        <h2 class="facts__header">Факты о Монтесорри</h2>
+        <div class="facts__container">
+          <div class="facts__item"><b>Монтессори – это фамилия первой женщины</b> в истории Италии, окончившей курс медицины и одной из первых женщин с учёной степенью доктора наук - Марии Монтессори. Мария Монтессори трижды (в 1949, 1950 и 1951 годах) была выдвинута на Нобелевскую премию мира.</div>
+          <div class="facts__item"><b>Монтессори-метод признан на государственном уровне</b> во<br />многих странах, например, США, Нидерландах, Индии, Канаде, Австралии, Таиланде.</div>
+          <div class="facts__item"><b>Более 22 000 школ</b> по всему миру и более 4000 в США и Канаде.</div>
+          <div class="facts__item"><b>Монтессори называют альтернативную философию</b> и методику воспитания и образования детей, которой уже более ста лет.</div>
+          <div class="facts__item"><b>Среди выпускников Монтессори школ</b> Ларри Пэйдж и Сергей Брин, основатели Google, основатель Amazon – Джефф Безос, основатель Wikipedia – Джимми Уэлс, члены британской королевской семьи – принцы Ульям и Гарри, лауреаты нобелевской премии Габриэль Гарсия Маркес и Эрик<br />Корнелл.</div>
+        </div>
+        <div class="videowrapper">
+          <iframe src="http://www.youtube.com/embed/CeIDckbfb58?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="teachers">
+      <div class="wrapper">
+        <h2>Команда HappyBee</h2>
+        <h3 class="teachers__purple">Toddler Community</h3>
+        <div class="teachers__container">
+          <div class="teachers__techer">
+            <img src="images/member_1.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                Савельева Елена <div>Монтессори педагог</div>
+              </div>
+              <div class="teachers__text readMore">
+                Поработав с детьми от рождения до 16 лет, я решила посвятить себя самому раннему периоду развития ребенка, в котором закладываются такие фундаментальные направляющие, как понимание устройства мира и своих возможностей во взаимодействии с ним. Я глубоко убеждена, что если на самом раннем этапе ребенок получит эти ключи, он сможет использовать их на протяжении всей своей жизни. Стоит только принять тот факт, что несмотря на кажущуюся пассивность, ребенок чувствует и впитывает окружающий мир, и тогда его деятельность приобретет в наших глазах особый жизненноважный смысл! Мне нравится наблюдать за детьми и определять их истинные потребности, ведь только так можно стать по-настоящему им близким. Дети - любознательные первооткрыватели и каждый день стремятся познавать новое. Они учатся общаться с другими детьми, учатся делиться игрушками и получают новый опыт. Мне кажется, что в подходе Марии Монтессори  заложено то самое уважение к жизни ребенка и вера в его ресурсы, которые близки мне самой. Именно поэтому я приняла решение освоить этот Метод и сделать его своей профессией.
+              </div>
+            </div>
+          </div>
+          <div class="teachers__techer">
+            <img src="images/member_2.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                Желябина Лилия <div>ассистент</div>
+              </div>
+              <div class="teachers__text readMore">
+                С появлением в семье младшего брата, я начала замечать, что мне нравится быть с детьми. Поскольку мне хотелось  научить его всему самому интересному, мы вместе познавали мир и открывали удивительные вещи. Именно в этот момент я решила перенести этот захватывающий опыт общения с ребенком в свою профессиональную деятельность. Сегодня я учусь в педагогическом университете по направлению «педагогика и психология раннего развития». HappyBee - место, где мы не только учим детей самостоятельно приобретать знания, но и место, где мы отдаём частичку себя каждому ребёнку!
+              </div>
+            </div>
+          </div>
+          <div class="teachers__techer">
+            <img src="images/member_3.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                Мугинова Динара <div>ассистент</div>
+              </div>
+              <div class="teachers__text readMore">
+                Еще с детства я мечтала работать с детьми, поэтому выбор педагогического образования стал для меня вполне естественным. В университете я  открыла для себя, что в воспитании ребенка важен не столько факт передачи знания, а деятельность, в которой это знание преобретается ! Для меня истинная ценность педагога заключается в том, чтобы научить ребенка учиться и быть ему  помощником и направляющим другом. В HappyBee я пришла в надежде обрести идеальную работу и чувствую, что нахожусь на своем месте. Дети - это чудо, а детство – прекрасная пора! Работая с детьми,  я вновь радуюсь самым обычным вещам, таким как задорный смех, милая улыбка и блестящие глаза, и погружаюсь в этот счастливый период своей жизни под названием детство, с каждым днем проживая его снова и снова.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="teachers__orange">Primary Community</h3>
+
+        <div class="teachers__container">
+          <div class="teachers__techer">
+            <img src="images/member_4.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                 Айсулова Екатерина <div>руководитель Монтессори программы</div>
+              </div>
+              <div class="teachers__text readMore">
+                В мир Марии Монтессори меня привела особая чувствительность к человеческой натуре и желание помочь другим стать счастливее от встречи с самим с собой и неиссякаемым потенциалом, заложенным природой. Такая встреча для многих уже состоявшихся взрослых является результатом тяжелого и длительного духовного поиска будь то через психоанализ, веру или другие практики.  Поэтому если есть возможность помочь детям остаться собой с самого начала и выбрать «свой путь», то я бы хотела ее им подарить!
+              </div>
+            </div>
+          </div>
+          <div class="teachers__techer">
+            <img src="images/member_5.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                 Швачка Мария <div>Монтессори педагог</div>
+              </div>
+              <div class="teachers__text readMore">
+                Метод Марии Монтессори стал для меня ключом к миру ребенка.<br>
+                Мир ребенка — это познание самого себя, открытие новых граней, сильная жажда к новому, доброму, интересному, светлому, где нет рамок и предела совершенству.<br>
+                Мне приносит радость быть рядом с детьми. В них сияет абсолютная любовь и это бесконечно восхищает меня. Я счастлива, что могу быть помощником для ребенка в обретении внутренней силы, независимости и свободы.<br>
+                Благодаря работе с детьми пришло понимание, что главное прислушаться и услышать тонкий голос души маленькой личности. Каждый ребенок готов взаимодействовать с миром взрослых, когда уверен, что его примут, поймут и чувство безопасности сопровождает во всех его начинаниях.<br>
+                Работая с детьми я и сама меняюсь и радуюсь тому, что становлюсь не просто педагогом, но и их другом и наставником.
+              </div>
+            </div>
+          </div>
+          <div class="teachers__techer">
+            <img src="images/member_6.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                 Ерженина Кира <div>ассистент</div>
+              </div>
+              <div class="teachers__text readMore">
+                По образованию я учитель, а по призванию – Мама двух замечательных детей, стремящаяся не только подарить им необходимые ласку и заботу, но и воспитать в них лучшие человеческие качества. Я очень люблю свою работу и убеждена, что служа детям, я служу Жизни. Улыбка на устах, радость в глазах, интерес к самопознанию, счастье, которое читается на лице детей — все это и приносит мне положительные эмоции и удовлетворение в работе и заряжает на будущее!
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="teachers__green">English Teachers</h3>
+
+        <div class="teachers__container">
+          <div class="teachers__techer">
+            <img src="images/member_4.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                 Patrick Sawyer
+              </div>
+              <div class="teachers__text readMore">
+                I have been working with children for over seven years. I was born and raised in Virginia Beach, Virginia in the United States where I graduated from university in 2012 with a bachelor's of arts in Global Politics. Following my entry to the working world, I left the US for Paris, France, where I started as an au­pair and then moved on to work for three years in a private English school teaching children as well as giving private lessons to students of all ages. After finishing university in France, I then moved to Moscow, Russia, where I resides today.
+              </div>
+            </div>
+          </div>
+          <div class="teachers__techer">
+            <img src="images/member_4.jpg" alt="">
+            <div class="teachers__desc">
+              <div class="teachers__title">
+                 Лаптева Елизавета
+              </div>
+              <div class="teachers__text readMore">
+                Осознав чудо новой ещё непроявленной жизни, я решила преподавать йогу для будущих мам, а потом и для детей. Известно, что эта практика позволяет человеку достичь гармонии с самим собой, расслабляться и фокусировать свое внимание на самом главном и актуальном для него. Все это получает ребенок и в Монтессори классе, где его внутреннее наполнение  и потенциал приобретают особую ценность не только для педагогов, но и для него самого.<br>
+                Заняв свою нишу в Happy Bee Montessori Center, я счастлива видеть сияющие глаза малышей, их заразительные улыбки, наблюдать и помогать маленьким душам открывать новые грани себя и окружающего мира.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <div class="wrapper">
+        <h2>Отзывы родителей</h2>
+        <div class="reviews__item">
+          <div class="reviews__image"><img src="images/feed_1.jpg" alt="Калугин Иван"></div>
+          <div class="reviews__text">
+            <div class="reviews__title">Калугин Иван</div>
+            <p>Ваня ходит в HappyBee всего несколько месяцев и мы очень довольны внимательным индивидуальным подходом к каждому ребенку. Плюс сама система Монтессори изначально очень нравится. Я вижу, что мой ребенок с удовольствием посещает занятия и занимается. К родителям персонал также очень внимателен – оказывают посильную помощь в вопросах воспитания детей.</p>
+            <div class="reviews__parent">
+              Мама Вани - <b>Калугина Мария</b>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image"><img src="images/feed_2.jpg" alt="Есипенко Анна"></div>
+          <div class="reviews__text">
+            <div class="reviews__title">Есипенко Анна</div>
+            <p>Огромное спасибо педагогам младшей группы за внимательное, чуткое и спокойное отношение к ребенку. Прекрасно помогли справиться с проблемой адаптации к саду. Сейчас ребенок с удовольствием идет и без проблем остается в саду.</p>
+            <div class="reviews__parent">
+              Мама Ани - <b>Есипенко Ольга</b>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image"><img src="images/feed_3.jpg" alt="Сиротинина Элина"></div>
+          <div class="reviews__text">
+            <div class="reviews__title">Сиротинина Элина</div>
+            <p>Все замечательно! Спасибо педагогам! Очень приятная атмосфера и отличное отношение к деткам.</p>
+            <div class="reviews__parent">
+              Мама Эли - <b>Сиротинина Елена</b>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image"><img src="images/feed_4.jpg" alt="Терехин Виктор"></div>
+          <div class="reviews__text">
+            <div class="review__title">Терехин Виктор</div>
+            <p>Мы очень довольны садом! Я вижу динамику в развитии у Вити. Огромное спасибо за ваш труда.</p>
+            <div class="reviews__parent">
+              <h4>Мама Вити - <b>Терехина Алина</b>
+            </div>
+          </div>
+        </div>
+        <div class="reviews__item">
+          <div class="reviews__image"><img src="images/feed_5.jpg" alt="Мейрабова София"></div>
+          <div class="reviews__text">
+            <div class="reviews__title">Мейрабова София</div>
+            <p>Мы очень довольны вашим центром. Сонечка с удовольствием посещала садик, у нее остались самые теплые воспоминания и хорошее впечатление за относительно небольшой срок пребывания.</p>
+            <div class="reviews__parent">
+              Папа Сони - <b>Мейрабов Никита</b>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="guest">
+      <div class="wrapper">
+        <header class="guest__header">Хочу приехать в гости</header>
+        <form class="form form_guest">
+          <label for="name-32" class="form__field">
+            <input type="text" name="name-32" id="name-32" required /><span>*</span>
+          </label>
+          <label for="phone-32" class="form__field">
+            <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
+          </label>
+          <label for="email-32" class="form__field">
+            <input type="email" name="email-32" id="email-32" /><span>*</span>
+          </label>
+          <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+          <div class="form__submit">
+            <input type="submit" value="Записаться на экскурсию" />
+          </div>
+          <div class="header__warning">*Количество мест в группе ограничено</div>
+        </fieldset>
+      </div>
+    </section>
+
+    <section class="interior">
+      <div class="wrapper">
+        <div class="interior__container">
+          <div class="interior__item"><a href="images/some-photo/1.jpg"><img src="images/sph1.jpg" alt="1"></a></div>
+          <div class="interior__item"><a href="images/some-photo/2.jpg"><img src="images/sph2.jpg" alt="2"></a></div>
+          <div class="interior__item"><a href="images/some-photo/3.jpg"><img src="images/sph3.jpg" alt="3"></a></div>
+        </div>
+        <h2 class="interior__header">HappyBee Монтессори центр</h2>
+        <div class="interior__text">В нашем центре светлые большие классы. Детская мебель изготовлена на заказ и сомасштабна росту ребенка. Все обучающие материалы разложены в определенном порядке, привлекательны для ребенка, выполнены из натуральных материалов естественных цветов. Класс – это дом ребенка, где уютно и безопасно, где каждого любят и принимают таким какой он есть.</div>
+      </div>
+    </section>
+
+    <section class="lk">
+      <div class="wrapper">
+        <div class="lk__header">Личный кабинет родителя</div>
+        <div class="lk__container">
+          <div class="lk__item">
+            <div class="lk__title">В своей работе мы придерживаемся</div>
+            партнерских отношений с родителями, открытых коммуникаций и взаимоподдержки.
+            <img src="images/cabinet_ico_1.png" alt="Партнерские отношения с родителями, коммуникации и взаимоподдержка">
+          </div>
+          <div class="lk__item">
+            <div class="lk__title">Ежемесячно мы проводим</div>
+            образовательные семинары, семейные мероприятия, еженедельно каждый родитель получают отчет и фотографии об успехах своего ребенка.
+            <img src="images/cabinet_ico_2.png" alt="Семейные мероприятия, отчеты, успехи">
+          </div>
+          <div class="lk__item">
+            <div class="lk__title">Наши двери всегда открыты</div>
+            для встреч и обсуждений вопросов воспитания и развития ребенка.
+            <img src="images/cabinet_ico_3.png" alt="Наши двери всегда открыты">
+          </div>
+        </div>
+        <div class="slider slider_mac">
+          <div class="slider__item"><img src="images/slide_1.jpg" alt="Скриншот личного кабинета 1"></div>
+          <div class="slider__item"><img src="images/slide_2.jpg" alt="Скриншот личного кабинета 2"></div>
+          <div class="slider__item"><img src="images/slide_3.jpg" alt="Скриншот личного кабинета 3"></div>
+          <div class="slider__item"><img src="images/slide_4.jpg" alt="Скриншот личного кабинета 4"></div>
+          <div class="slider__item"><img src="images/slide_5.jpg" alt="Скриншот личного кабинета 5"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="location">
+      <div class="wrapper">
+        <div class="location__title">
+          Наш центр находится <b>в районе Крылатское, в парк-отеле «Остров Фантазий»</b>, расположенном на искусственном острове в излучине Москвы-реки.
+        </div>
+        <div class="location__text">
+          Мы выбрали это место не случайно – здесь невероятно красиво и тихо, нет городского шума, слышно как поют птицы и течет река. Здесь безопасно и уютно (территория поселка хорошо охраняется). Это идеальное место, где дети могут расти, наслаждаясь природой: видеть как весной расцветают цветы, прилетают птицы, осенью следить как постепенно деревья меняют цвет листьев, а зимой играть с белым пушистым снегом.
+        </div>
+        <div class="location__map">
+          <img src="images/map.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="pricecut">
+      <div class="wrapper">
+        <header class="pricecut__header">Успей получить скидку</header>
+        <div class="pricecut__subtitle"><img src="images/glass.png" alt="Pricecut"></div>
+        <form class="form form_pricecut">
+          <fieldset>
+            <legend align="center">Узнать подробности сейчас</legend>
+            <label for="name-32" class="form__field">
+              <input type="text" name="name-32" id="name-32" required /><span>*</span>
+            </label>
+            <label for="phone-32" class="form__field">
+              <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
+            </label>
+            <label for="email-32" class="form__field">
+              <input type="email" name="email-32" id="email-32" /><span>*</span>
+            </label>
+            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+            <div class="form__submit">
+              <input type="submit" value="Записаться на экскурсию" />
+            </div>
+            <div class="header__warning">*Количество мест в группе ограничено</div>
+          </fieldset>
+        </form>
+      </div>
+    </section>
+
+    <section class="ourwork">
+      <div class="wrapper">
+        <h2 class="ourwork__header">Как мыработаем</h2>
+        <div class="ourwork__container">
+          <div class="ourwork__item">
+            <div class="ourwork__image"><img src="images/hw1.png" alt=""></div>
+            <b>Знакомство семьи с преподавателем</b> и руководителем центра. Тур по центру и территории поселка.
+          </div>
+          <div class="ourwork__item">
+            <div class="ourwork__image"><img src="images/hw2.png" alt=""></div>
+            <b>Заполнение необходимых форм,</b> подписание договора.
+          </div>
+          <div class="ourwork__item">
+            <div class="ourwork__image"><img src="images/hw3.png" alt=""></div>
+            <b>Встреча ребенка с преподавателем</b> за 3-4 дня до начала занятий для облегчения процесса адаптации.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer__container">
+          <div class="footer__item">
+            <div><a href="#toTop"><div class="lk__title">
+              <img src="images/logo.png" alt="HAPPY Bee">
+            </div></a></div>
+            121552, Москва, Островной проезд, дом 12 корпус 1
+            <div class="soc">
+              <a href="https://www.facebook.com/HappyBeeMontessoriCenter" style="background:url(images/facebook.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 0 33px;float:left;color:#00b2e5;margin:6px 0 0 0;text-decoration:underline;" target="_blank">Like us on Facebook</a>
+              <a href="http://instagram.com/happybeemontessori" style="background:url(images/instag_09.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 10px 70px;float:left;margin:6px 0 0 20px;text-decoration:underline;" target="_blank"> &nbsp;</a>
+              
+              <a href="https://vk.com/hbmontessori" style="background:url(images/vk.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 10px 20px;float:left;margin:6px 0 0 20px;text-decoration:none;" target="_blank"> &nbsp;</a>
+              <a href="#" style="background:url(images/youtube-logo.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 10px 20px;float:left;margin:6px 0 0 20px;text-decoration:none;" target="_blank"> &nbsp;</a>
+            </div>
+          </div>
+          <div class="footer__item footer__item_info">
+            <div>+7 (499) 750 - 13 - 87</div>
+            <div class="footer__info">Звоните, ответим на все вопросы</div>
+            <a class="button button_header">Закажите обратный звонок</a>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <a href="http://smartlanding.ru/">Разработано в smartlanding.ru</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+	<!-- @if ENV='dev' -->
+	<script src="scripts/vendor.js"></script>
+	<script src="scripts/main.js"></script>
+	<!-- @endif -->
+	<!-- @if ENV='prod' -->
+	<script src="scripts/vendor.min.js"></script>
+	<script src="scripts/main.min.js"></script>
+	<!-- @endif -->
+
+	<!-- //@include inc/_analytics.html -->
+</body>
+</html>
