@@ -7,10 +7,60 @@
 @import 'fonts/_fonts';
 
 $siteWidth: 62.5rem;
+$mTrans: $easeInOutSine;
+$mTransOut: $easeOutSine;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .wrapper {
   max-width: $siteWidth;
   margin: 0 auto;
+  &_fat {
+    max-width: 80rem;
+  }
+}
+
+.preloader {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: #f4e0c7;
+  z-index: 9999;
+
+  background: linear-gradient(-59deg, #ffffff, #eaca64);
+  background-size: 400% 400%;
+  animation: preloaderAnim 25s ease infinite;
+  &__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    svg {
+      animation: float 1s linear infinite;
+    }
+  }
+  @keyframes preloaderAnim { 
+      0% { background-position: 0% 50% }
+      50% { background-position: 100% 50% }
+      100% { background-position: 0% 50% }
+  }
+  @keyframes float {
+    0% {
+      transform: translate3d(0,0.3rem,0)
+    }
+    50% {
+      transform: translate3d(0,-0.3rem,0)
+    }
+    100% {
+      transform: translate3d(0,0.3rem,0)
+    }
+  }
 }
 
 @import 'modules/**/*';

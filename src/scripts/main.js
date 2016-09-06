@@ -2,4 +2,4 @@
 
 // const g = 9.81;
 
-console.log('Hello World');
+var sequences = require('./views/sequence');

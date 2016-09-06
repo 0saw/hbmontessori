@@ -1,0 +1,103 @@
+.slider {
+  position: relative;
+  &_home {
+    margin-top: 1rem;
+    .slider {
+      &__canvas {
+        position: relative;
+        height: 0;
+        width: 100%;
+        padding-bottom: 607 / 1280 * 100%;
+      }
+      &__item {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        .slider__content {
+          opacity: 0.001;
+          transition: opacity 0.6s ease-out;
+          transition-timing-function: $mTrans;
+          perspective: 500px;
+          img {
+            user-select: none;
+            pointer-events: none;
+            max-width: 100%;
+          }
+        }
+        &.seq-in .slider__content {
+          opacity: 1;
+          transition-timing-function: $mTransOut;
+        }
+        &.seq-out .slider__content {
+          opacity: 0.001;
+        }
+
+        &.seq-in .slider__desc {
+          transform: translate3d(0rem, 0, 0) skew(0deg, 0);
+          transition-duration: 0.2s;
+          transition-timing-function: $mTransOut;
+          transition-delay: 0.2s;
+          opacity: 1;
+        }
+        &.seq-out .slider__desc {
+          opacity: 0.001;
+          transform: translate3d(0rem, 0, 0) skew(0deg, 0);
+          transition-duration: 0.2s;
+          transition-timing-function: $mTransOut;
+          transition-delay: 0.2s;
+        }
+      }
+      &__pagination {
+        z-index: 10;
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+        width: 100%;
+        text-align: center;
+      }
+      &__bullet {
+        cursor: pointer;
+        display: inline-block;
+        width: 1rem;
+        height: 1rem;
+        transition: 0.3s ease-out;
+        transition-property: background-color, box-shadow;
+        transition-timing-function: $mTrans;
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 3px 9px rgba(0,0,0,0.4);
+        &:hover {
+          background-color: #FEB8B7;
+          box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+          transition-timing-function: $mTransOut;
+        }
+        &.seq-current {
+          background-color: #ff514c;
+          transition-timing-function: $mTransOut;
+          transition-duration: 0.1s;
+        }
+      }
+      &__desc {
+        z-index: 12;
+        position: absolute;
+        bottom: 2rem;
+        left: 1rem;
+        padding: 1rem 2rem;
+        box-shadow: 0 2px 11px rgba(0,0,0,0.4);
+        opacity: 0.001;
+        transform: translate3d(-4rem, 0, 0) skew(40deg, 0);
+        backface-visibility: hidden;
+        background-color: #FFF051;
+        font-family: 'Arial Narrow', serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 1.2rem;
+        transition: 0.3s ease-out;
+        transition-property: opacity, transform;
+        transition-timing-function: $mTrans;
+      }
+    }
+  }
+}
