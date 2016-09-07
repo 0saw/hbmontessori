@@ -19,12 +19,11 @@ $(function() {
         duration: 400,
         easing: 'easeInOutSine'
       });
-      frontPage();
+      var sequences = require('./views/sequence');
+      $('.readMore').readmore({
+        speed: 75,
+        moreLink: '<a href="#" class="button button_readmore">Читать полностью >></a>',
+        lessLink: '<a href="#" class="button button_readmore">Скрыть</a>'
+      });
     });
-  var sequences = require('./views/sequence');
-  $('.readMore').readmore({
-    speed: 75,
-    moreLink: '<a href="#" class="button button_readmore">Читать полностью >></a>',
-    lessLink: '<a href="#" class="button button_readmore">Скрыть</a>'
-  });
 });
