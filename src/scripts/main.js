@@ -27,14 +27,19 @@ $(function() {
       });
 
       var $nav = $('.nav');
+      var navOffset = $nav.offset().top;
       var windowScroll = function (e) {
-        if ($(window).scrollTop() > $nav.offset().top) {
-          $nav.toggleClass('fixed', true);
+        if ($(window).scrollTop() > navOffset) {
+          $nav.addClass('fixed');
         } else {
-          $nav.toggleClass('fixed', false);
+          $nav.removeClass('fixed');
         }
       };
-      $(window).on('scroll resize', windowScroll);
+      var windowResize = function (e) {
+        navOffset = $nav.offset().top;
+      };
+      $(window).on('scroll', windowScroll);
+      $(window).on('resize', windowResize);
       $(document).ready(windowScroll);
 
       var scrollToElement = function(element, offset) {
