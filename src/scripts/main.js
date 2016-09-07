@@ -25,5 +25,32 @@ $(function() {
         moreLink: '<a href="#" class="button button_readmore">Читать полностью >></a>',
         lessLink: '<a href="#" class="button button_readmore">Скрыть</a>'
       });
+
+      var $nav = $('.nav');
+      var windowScroll = function (e) {
+        if ($(window).scrollTop() > $nav.offset().top) {
+          $nav.toggleClass('fixed', true);
+        } else {
+          $nav.toggleClass('fixed', false);
+        }
+      };
+      $(window).on('scroll resize', windowScroll);
+      $(document).ready(windowScroll);
+
+      var scrollToElement = function(element, offset) {
+        $(element).click(function(e) {
+          var elementClick = $(this).attr("href");
+          var destination  = $(elementClick).offset().top;
+          if(destination < 0) {destination = 0;}
+          $('html, body').animate({scrollTop: destination - offset}, "slow");
+          e.preventDefault();
+        });
+      }
+
+      scrollToElement("a[href='#toddler']", 0);
+      scrollToElement("a[href='#primary']", 0);
+      scrollToElement("a[href='#ourteam']", 50);
+      scrollToElement("a[href='#cabinet']", 0);
+      scrollToElement("a[href='#location']", 0);
     });
 });
