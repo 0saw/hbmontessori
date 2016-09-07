@@ -24,4 +24,14 @@
   &__image {
     margin-bottom: 1rem;
   }
+  @media screen and (max-width: 40rem) {
+    padding-bottom: 4rem;
+    &__container {
+      flex-flow: row wrap;
+    }
+    &__item {
+      min-width: 100%;
+      border-right: 0;
+    }
+  }
 }
