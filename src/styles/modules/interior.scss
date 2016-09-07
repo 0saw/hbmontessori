@@ -1,0 +1,25 @@
+.interior {
+  background: url('../images/some_photo.png') center center;
+  padding: 2rem 0;
+  &__container {
+    -js-display: flex;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+  }
+  &__item {
+    img {
+      max-width: 100%;
+    }
+  }
+  h2, &__header {
+    font-size: 2.5rem;
+    font-family: 'Clinica Pro Rg', arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 3rem 0 2.5rem 0;
+  }
+  &__text {
+    text-align: center;
+  }
+}

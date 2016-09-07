@@ -1,0 +1,54 @@
+.enterfee, .wannabesmart, .pricecut {
+  background: url('../images/enterfee_bg.jpg') center center;
+  padding: 2rem 0 3.5rem;
+  position: relative;
+  box-shadow: inset 0 9px 26px -6px rgba(0,0,0,0.4);
+  &:after {
+    content: ' ';
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    left: 0;
+    height: 22px;
+    background: url('../images/form_tail.png') bottom center;
+  }
+  .wrapper {
+    padding: 0 2.4rem;
+  }
+  &__header {
+    font-family: 'Myriad Pro', arial, sans-serif;
+    font-size: 2.1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #524339;
+    text-shadow: 0 1px 0 #f6dcd0;
+    margin-bottom: 0.4rem;
+  }
+  &__subtitle {
+    font-family: 'Myriad Pro', arial, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 1px 0 #9d7171;
+    font-size: 1.5rem;
+    margin: 0.4rem 0;
+    text-align: center;
+    vertical-align: baseline;
+  }
+  &__warning {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+  @media screen and (max-width: 30rem) {
+    .wrapper {
+      padding: 0;
+    }
+    &__header {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.wannabesmart:after, .pricecut:after {
+  display: none;
+  content: none;
+}

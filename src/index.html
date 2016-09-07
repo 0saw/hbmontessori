@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title>Билингвальный детский сад в Крылатском Дошкольное образование по мировым стандартам Монтессори</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Билингвальный детский сад в Крылатском Дошкольное образование по мировым стандартам Монтессори</title>
 
-	<!-- @if ENV='dev' -->
-	<link rel="stylesheet" href="styles/main.css">
-	<!-- @endif -->
-	<!-- @if ENV='prod' -->
-	<link rel="stylesheet" href="styles/main.min.css">
-	<!-- @endif -->
+  <!-- @if ENV='dev' -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- @endif -->
+  <!-- @if ENV='prod' -->
+  <link rel="stylesheet" href="styles/main.min.css">
+  <!-- @endif -->
 
-	<!-- @include inc/_meta.html -->
+  <!-- @include inc/_meta.html -->
 
-	<!-- @include inc/_favicons.html -->
+  <!-- @include inc/_favicons.html -->
 </head>
 <body>
-	<!-- @include inc/_browserhappy.html -->
+  <!-- @include inc/_browserhappy.html -->
   <div class="preloader">
     <div class="preloader__container">
       <svg width="133.8" height="149.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.8 149.2">
@@ -39,7 +39,7 @@
       </svg>
     </div>
   </div>
-	<div id="main" class="viewport">
+  <div id="main" class="viewport">
     <header class="header">
       <div class="wrapper">
         <div class="header__container">
@@ -111,7 +111,7 @@
               </label>
               <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
               <div class="form__button">
-                <input class="button button_form" type="submit" value="Записаться" />
+                <a class="button button_form">Записаться</a>
               </div>
             </form>
             <div class="header__warning">*Количество мест в группе ограничено</div>
@@ -146,20 +146,22 @@
         <form class="form form_page">
           <fieldset>
             <legend align="center">Идет набор в группу Primary Community</legend>
-            <label for="name-32" class="form__field">
-              <input type="text" name="name-32" id="name-32" required /><span>*</span>
-            </label>
-            <label for="phone-32" class="form__field">
-              <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
-            </label>
-            <label for="email-32" class="form__field">
-              <input type="email" name="email-32" id="email-32" /><span>*</span>
-            </label>
-            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
-            <div class="form__submit">
-              <input type="submit" value="Записаться на экскурсию" />
+            <div class="form__container">
+              <label for="name-31" class="form__field">
+                <input type="text" name="name-31" id="name-31" placeholder="Ваше имя" required /><span>*</span>
+              </label>
+              <label for="phone-31" class="form__field">
+                <input type="tel" name="phone-31" id="phone-31" placeholder="Ваш телефон" pattern="^[0-9- \(\)\+]{6,24}$" required /><span>*</span>
+              </label>
+              <label for="email-31" class="form__field">
+                <input type="email" name="email-31" placeholder="Ваш E-mail" id="email-31" /><span>*</span>
+              </label>
             </div>
-            <div class="header__warning">*Количество мест в группе ограничено</div>
+            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+            <div class="form__button">
+              <a class="button button_form">Записаться на экскурсию</a>
+            </div>
+            <div class="enterfee__warning">*Количество мест в группе ограничено</div>
           </fieldset>
         </form>
       </div>
@@ -169,12 +171,14 @@
       <div class="wrapper">
         <h2 class="group__header">Группа Toddler Community</h2>
         <div class="group__container">
-          <div class="group__image"></div>
+          <div class="group__image">
+            <img src="images/child_03_02.jpg" alt="Группа Toddler Community">
+          </div>
           <div class="group__info">
             <div class="group__title group__line">Для детей в возрасте от 18 месяцев до 3 лет</div>
             <div class="group__line">с 9.00 до 17.00</div>
             <div class="group__line">трехразовое питание</div>
-            <div>
+            <div class="group__line">
               Преподаватель:
               <div class="group__sub">
                 Монтессори педагог с международной квалификацией (Association Montessori Internationale)
@@ -195,14 +199,16 @@
       <div class="wrapper">
         <h2 class="group__header">Группа Primary Community</h2>
         <div class="group__container">
-          <div class="group__image"></div>
+          <div class="group__image">
+            <img src="images/child2_07_07_03.jpg" alt="Группа Primary Community">
+          </div>
           <div class="group__info">
             <div class="group__title group__line">
               Для детей в возрасте <br> от 2,5 до 5/6 лет
             </div>
             <div class="group__line">с 9.00 до 19.00</div>
             <div class="group__line">четырехразовое питание</div>
-            <div>
+            <div class="group__line">
               Преподаватель:
               <div class="group__sub">
                 Монтессори педагоги с международной квалификацией (Association Montessori Internationale), носитель английского языка с опытом работы в мультикультурном классе/среде.
@@ -223,21 +229,23 @@
         <header class="wannabesmart__header">Хочу знать больше!</header>
         <form class="form form_page">
           <fieldset>
-            <legend align="center">Идет набор в группу Primary Community</legend>
-            <label for="name-32" class="form__field">
-              <input type="text" name="name-32" id="name-32" required /><span>*</span>
-            </label>
-            <label for="phone-32" class="form__field">
-              <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
-            </label>
-            <label for="email-32" class="form__field">
-              <input type="email" name="email-32" id="email-32" /><span>*</span>
-            </label>
-            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
-            <div class="form__submit">
-              <input type="submit" value="Записаться на экскурсию" />
+            <legend align="center"><img src="images/sun.png" alt="Солнце"></legend>
+            <div class="form__container">
+              <label for="name-30" class="form__field">
+                <input type="text" name="name-30" id="name-30" placeholder="Ваше имя" required /><span>*</span>
+              </label>
+              <label for="phone-30" class="form__field">
+                <input type="tel" name="phone-30" id="phone-30" placeholder="Ваш телефон" pattern="^[0-9- \(\)\+]{6,24}$" required /><span>*</span>
+              </label>
+              <label for="email-30" class="form__field">
+                <input type="email" name="email-30" placeholder="Ваш E-mail" id="email-30" /><span>*</span>
+              </label>
             </div>
-            <div class="header__warning">*Количество мест в группе ограничено</div>
+            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+            <div class="form__button">
+              <a class="button button_form">Записаться на экскурсию</a>
+            </div>
+            <div class="wannabesmart__warning">*Количество мест в группе ограничено</div>
           </fieldset>
         </form>
       </div>
@@ -253,8 +261,10 @@
           <div class="facts__item"><b>Монтессори называют альтернативную философию</b> и методику воспитания и образования детей, которой уже более ста лет.</div>
           <div class="facts__item"><b>Среди выпускников Монтессори школ</b> Ларри Пэйдж и Сергей Брин, основатели Google, основатель Amazon – Джефф Безос, основатель Wikipedia – Джимми Уэлс, члены британской королевской семьи – принцы Ульям и Гарри, лауреаты нобелевской премии Габриэль Гарсия Маркес и Эрик<br />Корнелл.</div>
         </div>
-        <div class="videowrapper">
-          <iframe src="http://www.youtube.com/embed/CeIDckbfb58?rel=0" frameborder="0" allowfullscreen></iframe>
+        <div class="wrapper wrapper_video">
+          <div class="videowrapper">
+            <iframe src="http://www.youtube.com/embed/CeIDckbfb58?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </section>
@@ -262,9 +272,9 @@
     <section class="teachers">
       <div class="wrapper">
         <h2>Команда HappyBee</h2>
-        <h3 class="teachers__purple">Toddler Community</h3>
+        <h3 class="teachers__purple"><span>Toddler Community</span></h3>
         <div class="teachers__container">
-          <div class="teachers__techer">
+          <div class="teachers__teacher">
             <img src="images/member_1.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
@@ -275,7 +285,7 @@
               </div>
             </div>
           </div>
-          <div class="teachers__techer">
+          <div class="teachers__teacher">
             <img src="images/member_2.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
@@ -286,7 +296,7 @@
               </div>
             </div>
           </div>
-          <div class="teachers__techer">
+          <div class="teachers__teacher">
             <img src="images/member_3.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
@@ -299,10 +309,10 @@
           </div>
         </div>
 
-        <h3 class="teachers__orange">Primary Community</h3>
+        <h3 class="teachers__orange"><span>Primary Community</span></h3>
 
         <div class="teachers__container">
-          <div class="teachers__techer">
+          <div class="teachers__teacher">
             <img src="images/member_4.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
@@ -313,7 +323,7 @@
               </div>
             </div>
           </div>
-          <div class="teachers__techer">
+          <div class="teachers__teacher">
             <img src="images/member_5.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
@@ -328,7 +338,7 @@
               </div>
             </div>
           </div>
-          <div class="teachers__techer">
+          <div class="teachers__teacher">
             <img src="images/member_6.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
@@ -344,8 +354,8 @@
         <h3 class="teachers__green">English Teachers</h3>
 
         <div class="teachers__container">
-          <div class="teachers__techer">
-            <img src="images/member_4.jpg" alt="">
+          <div class="teachers__teacher">
+            <img src="images/member_7.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
                  Patrick Sawyer
@@ -355,8 +365,8 @@
               </div>
             </div>
           </div>
-          <div class="teachers__techer">
-            <img src="images/member_4.jpg" alt="">
+          <div class="teachers__teacher">
+            <img src="images/member_8.jpg" alt="">
             <div class="teachers__desc">
               <div class="teachers__title">
                  Лаптева Елизавета
@@ -375,7 +385,7 @@
       <div class="wrapper">
         <h2>Отзывы родителей</h2>
         <div class="reviews__item">
-          <div class="reviews__image"><img src="images/feed_1.jpg" alt="Калугин Иван"></div>
+          <div class="reviews__image"><img src="images/feed_1.png" alt="Калугин Иван"></div>
           <div class="reviews__text">
             <div class="reviews__title">Калугин Иван</div>
             <p>Ваня ходит в HappyBee всего несколько месяцев и мы очень довольны внимательным индивидуальным подходом к каждому ребенку. Плюс сама система Монтессори изначально очень нравится. Я вижу, что мой ребенок с удовольствием посещает занятия и занимается. К родителям персонал также очень внимателен – оказывают посильную помощь в вопросах воспитания детей.</p>
@@ -385,7 +395,7 @@
           </div>
         </div>
         <div class="reviews__item">
-          <div class="reviews__image"><img src="images/feed_2.jpg" alt="Есипенко Анна"></div>
+          <div class="reviews__image"><img src="images/feed_2.png" alt="Есипенко Анна"></div>
           <div class="reviews__text">
             <div class="reviews__title">Есипенко Анна</div>
             <p>Огромное спасибо педагогам младшей группы за внимательное, чуткое и спокойное отношение к ребенку. Прекрасно помогли справиться с проблемой адаптации к саду. Сейчас ребенок с удовольствием идет и без проблем остается в саду.</p>
@@ -395,7 +405,7 @@
           </div>
         </div>
         <div class="reviews__item">
-          <div class="reviews__image"><img src="images/feed_3.jpg" alt="Сиротинина Элина"></div>
+          <div class="reviews__image"><img src="images/feed_3.png" alt="Сиротинина Элина"></div>
           <div class="reviews__text">
             <div class="reviews__title">Сиротинина Элина</div>
             <p>Все замечательно! Спасибо педагогам! Очень приятная атмосфера и отличное отношение к деткам.</p>
@@ -405,17 +415,17 @@
           </div>
         </div>
         <div class="reviews__item">
-          <div class="reviews__image"><img src="images/feed_4.jpg" alt="Терехин Виктор"></div>
+          <div class="reviews__image"><img src="images/feed_4.png" alt="Терехин Виктор"></div>
           <div class="reviews__text">
             <div class="review__title">Терехин Виктор</div>
             <p>Мы очень довольны садом! Я вижу динамику в развитии у Вити. Огромное спасибо за ваш труда.</p>
             <div class="reviews__parent">
-              <h4>Мама Вити - <b>Терехина Алина</b>
+              Мама Вити - <b>Терехина Алина</b>
             </div>
           </div>
         </div>
         <div class="reviews__item">
-          <div class="reviews__image"><img src="images/feed_5.jpg" alt="Мейрабова София"></div>
+          <div class="reviews__image"><img src="images/feed_5.png" alt="Мейрабова София"></div>
           <div class="reviews__text">
             <div class="reviews__title">Мейрабова София</div>
             <p>Мы очень довольны вашим центром. Сонечка с удовольствием посещала садик, у нее остались самые теплые воспоминания и хорошее впечатление за относительно небольшой срок пребывания.</p>
@@ -428,24 +438,26 @@
     </section>
 
     <section class="guest">
-      <div class="wrapper">
+      <div class="wrapper wrapper_guest">
         <header class="guest__header">Хочу приехать в гости</header>
         <form class="form form_guest">
-          <label for="name-32" class="form__field">
-            <input type="text" name="name-32" id="name-32" required /><span>*</span>
-          </label>
-          <label for="phone-32" class="form__field">
-            <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
-          </label>
-          <label for="email-32" class="form__field">
-            <input type="email" name="email-32" id="email-32" /><span>*</span>
-          </label>
-          <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
-          <div class="form__submit">
-            <input type="submit" value="Записаться на экскурсию" />
+          <div class="form__container">
+            <label for="name-28" class="form__field">
+              <input type="text" name="name-28" id="name-28" placeholder="Ваше имя" required /><span>*</span>
+            </label>
+            <label for="phone-28" class="form__field">
+              <input type="tel" name="phone-28" id="phone-28" placeholder="Ваш телефон" pattern="^[0-9- \(\)\+]{6,24}$" required /><span>*</span>
+            </label>
+            <label for="email-28" class="form__field">
+              <input type="email" name="email-28" placeholder="Ваш E-mail" id="email-28" /><span>*</span>
+            </label>
           </div>
-          <div class="header__warning">*Количество мест в группе ограничено</div>
-        </fieldset>
+          <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+          <div class="form__button">
+            <a class="button button_form">Записаться на экскурсию</a>
+          </div>
+          <div class="guest__warning">*Количество мест в группе ограничено</div>
+        </form>
       </div>
     </section>
 
@@ -481,12 +493,38 @@
             <img src="images/cabinet_ico_3.png" alt="Наши двери всегда открыты">
           </div>
         </div>
-        <div class="slider slider_mac">
-          <div class="slider__item"><img src="images/slide_1.jpg" alt="Скриншот личного кабинета 1"></div>
-          <div class="slider__item"><img src="images/slide_2.jpg" alt="Скриншот личного кабинета 2"></div>
-          <div class="slider__item"><img src="images/slide_3.jpg" alt="Скриншот личного кабинета 3"></div>
-          <div class="slider__item"><img src="images/slide_4.jpg" alt="Скриншот личного кабинета 4"></div>
-          <div class="slider__item"><img src="images/slide_5.jpg" alt="Скриншот личного кабинета 5"></div>
+        <div class="wrapper wrapper_mac">
+          <div id="sequence2" class="slider slider_mac">
+            <div class="slider__canvas seq-canvas">
+              <div class="slider__item seq-in">
+                <div class="slider__content">
+                  <img src="images/slide_1.jpg" />
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__content">
+                  <img src="images/slide_2.jpg" />
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__content">
+                  <img src="images/slide_3.jpg" />
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__content">
+                  <img src="images/slide_4.jpg" />
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider__content">
+                  <img src="images/slide_5.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div rel="sequence2" class="seq-prev"></div>
+          <div rel="sequence2" class="seq-next"></div>
         </div>
       </div>
     </section>
@@ -509,23 +547,25 @@
       <div class="wrapper">
         <header class="pricecut__header">Успей получить скидку</header>
         <div class="pricecut__subtitle"><img src="images/glass.png" alt="Pricecut"></div>
-        <form class="form form_pricecut">
+        <form id="form4" action="test.php" class="form form_pricecut">
           <fieldset>
-            <legend align="center">Узнать подробности сейчас</legend>
-            <label for="name-32" class="form__field">
-              <input type="text" name="name-32" id="name-32" required /><span>*</span>
-            </label>
-            <label for="phone-32" class="form__field">
-              <input type="tel" name="phone-32" id="phone-32" pattern="^[0-9- \(\)]*$" required /><span>*</span>
-            </label>
-            <label for="email-32" class="form__field">
-              <input type="email" name="email-32" id="email-32" /><span>*</span>
-            </label>
-            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
-            <div class="form__submit">
-              <input type="submit" value="Записаться на экскурсию" />
+            <legend align="center">Идет набор в группу Primary Community</legend>
+            <div class="form__container">
+              <label for="name-27" class="form__field">
+                <input type="text" name="name-27" id="name-27" placeholder="Ваше имя" required /><span>*</span>
+              </label>
+              <label for="phone-27" class="form__field">
+                <input type="tel" name="phone-27" id="phone-27" placeholder="Ваш телефон" pattern="^[0-9- \(\)\+]{6,24}$" required /><span>*</span>
+              </label>
+              <label for="email-27" class="form__field">
+                <input type="email" name="email-27" placeholder="Ваш E-mail" id="email-27" /><span>*</span>
+              </label>
             </div>
-            <div class="header__warning">*Количество мест в группе ограничено</div>
+            <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+            <div class="form__button">
+              <a class="button button_form">Записаться на экскурсию</a>
+            </div>
+            <div class="pricecut__warning">*Количество мест в группе ограничено</div>
           </fieldset>
         </form>
       </div>
@@ -549,46 +589,53 @@
           </div>
         </div>
       </div>
-    </section>
 
-    <footer class="footer">
-      <div class="wrapper">
-        <div class="footer__container">
-          <div class="footer__item">
-            <div><a href="#toTop"><div class="lk__title">
-              <img src="images/logo.png" alt="HAPPY Bee">
-            </div></a></div>
-            121552, Москва, Островной проезд, дом 12 корпус 1
-            <div class="soc">
-              <a href="https://www.facebook.com/HappyBeeMontessoriCenter" style="background:url(images/facebook.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 0 33px;float:left;color:#00b2e5;margin:6px 0 0 0;text-decoration:underline;" target="_blank">Like us on Facebook</a>
-              <a href="http://instagram.com/happybeemontessori" style="background:url(images/instag_09.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 10px 70px;float:left;margin:6px 0 0 20px;text-decoration:underline;" target="_blank"> &nbsp;</a>
-              
-              <a href="https://vk.com/hbmontessori" style="background:url(images/vk.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 10px 20px;float:left;margin:6px 0 0 20px;text-decoration:none;" target="_blank"> &nbsp;</a>
-              <a href="#" style="background:url(images/youtube-logo.png) no-repeat 0 0;display:block;line-height:24px;padding:0 0 10px 20px;float:left;margin:6px 0 0 20px;text-decoration:none;" target="_blank"> &nbsp;</a>
+      <footer class="footer">
+        <div class="wrapper">
+          <div class="footer__container">
+            <div class="footer__item">
+              <div><a href="#toTop"><div class="lk__title">
+                <img src="images/logo.png" alt="HAPPY Bee">
+              </div></a></div>
+              121552, Москва, Островной проезд, дом 12 корпус 1
+              <div class="soc">
+                <a href="https://www.facebook.com/HappyBeeMontessoriCenter" class="soc__icon soc__icon_fb">
+                  <img src="images/facebook.png" alt="">
+                </a>
+                <a href="http://instagram.com/happybeemontessori" class="soc__icon soc__icon_inst">
+                  <img src="images/instagram.png" alt="">
+                </a>
+                <a href="https://vk.com/hbmontessori" class="soc__icon soc__icon_vk">
+                  <img src="images/vk.png" alt="">
+                </a>
+                <a href="#" class="soc__icon soc__icon_youtube">
+                  <img src="images/youtube.png" alt="">
+                </a>
+              </div>
+            </div>
+            <div class="footer__item footer__item_info">
+              <div>+7 (499) 750 - 13 - 87</div>
+              <div class="footer__info">Звоните, ответим на все вопросы</div>
+              <a class="button button_header">Закажите обратный звонок</a>
             </div>
           </div>
-          <div class="footer__item footer__item_info">
-            <div>+7 (499) 750 - 13 - 87</div>
-            <div class="footer__info">Звоните, ответим на все вопросы</div>
-            <a class="button button_header">Закажите обратный звонок</a>
+          <div class="footer__copyright">
+            <a href="http://smartlanding.ru/">Разработано в smartlanding.ru</a>
           </div>
         </div>
-        <div class="footer__copyright">
-          <a href="http://smartlanding.ru/">Разработано в smartlanding.ru</a>
-        </div>
-      </div>
-    </footer>
+      </footer>
+    </section>
   </div>
 
-	<!-- @if ENV='dev' -->
-	<script src="scripts/vendor.js"></script>
-	<script src="scripts/main.js"></script>
-	<!-- @endif -->
-	<!-- @if ENV='prod' -->
-	<script src="scripts/vendor.min.js"></script>
-	<script src="scripts/main.min.js"></script>
-	<!-- @endif -->
+  <!-- @if ENV='dev' -->
+  <script src="scripts/vendor.js"></script>
+  <script src="scripts/main.js"></script>
+  <!-- @endif -->
+  <!-- @if ENV='prod' -->
+  <script src="scripts/vendor.min.js"></script>
+  <script src="scripts/main.min.js"></script>
+  <!-- @endif -->
 
-	<!-- //@include inc/_analytics.html -->
+  <!-- //@include inc/_analytics.html -->
 </body>
 </html>

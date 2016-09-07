@@ -1,7 +1,8 @@
 (function() {
   var sequences = [];
   var sequenceElement = document.getElementById("sequence1");
-  if (sequenceElement == null) {
+  var sequenceElement2 = document.getElementById("sequence2");
+  if (sequenceElement == null || sequenceElement2 == null) {
     return;
   }
 
@@ -17,7 +18,23 @@
     // reverseTimingFunctionWhenNavigatingBackwards: true,
   }
 
+  var options2 = {
+    animateCanvas: true,
+    keyNavigation: false,
+    fadeStepWhenSkipped: false,
+    reverseWhenNavigatingBackwards: true,
+    nextButton: '.wrapper_mac .seq-next',
+    prevButton: '.wrapper_mac .seq-prev',
+    // pagination: '#sequence1 .slider__pagination',
+    preloader: false,
+    // reverseTimingFunctionWhenNavigatingBackwards: true,
+  }
+
   var mySequence = sequence(sequenceElement, options);
   sequences.push(mySequence);
+
+  var mySequence2 = sequence(sequenceElement2, options2);
+  sequences.push(mySequence2);
+  sequences.push(mySequence2);
   return sequences;
 })();

@@ -29,15 +29,12 @@
     "vendors/hammer.js",
     "vendors/flexibility.js",
     "vendors/rempoly.js",
-    "vendors/vminpoly.js",
-    "vendors/requestAnimationFrame.js", 
     "vendors/jquery-3.1.0.js",
-    "vendors/imagesloaded.pkgd.js",
     "vendors/jquery.easing.js",
+    "vendors/imagesloaded.pkgd.js",
+    "vendors/readmore.js",
     "vendors/sequence.js",
-    "vendors/jquery.magnific-popup.js",
-    "vendors/parallax.js",
-    "vendors/pushy.js"
+    "vendors/jquery.magnific-popup.js"
   ],
   "napa": {},
   "dependencies": {

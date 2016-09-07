@@ -1,0 +1,105 @@
+.group {
+  &__header {
+    font-size: 3rem;
+    font-family: 'Clinica Pro Rg', arial, sans-serif;
+    text-align: center;
+    padding: 3rem 0 2.5rem 0;
+    font-weight: normal;
+    margin: 0;
+  }
+  &__container {
+    -js-display: flex;
+    display: flex;
+    flex-flow: row nowrap;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    align-items: stretch;
+  }
+  &__image, &__info {
+    flex: 1;
+    background: center center no-repeat;
+    background-size: cover;
+  }
+  &__image {
+    background-image: url('../images/child_03_02.jpg');
+    min-height: 500px;
+    img {
+      display: none;
+    }
+  }
+  &__info {
+    background-image: url('../images/child_03_03.jpg');
+    text-align: center;
+    -js-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+  }
+  &__title {
+    padding: 0 1rem;
+    font: 600 1.4rem 'Myriad Pro', arial, sans-serif;
+  }
+  &__line {
+    padding-bottom: 1.4rem;
+    background: url('../images/hr_g1.png') bottom center no-repeat;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    max-width: 257px;
+    font-size: 1.4rem;
+    font-family: 'Clinica Pro Rg', sans-serif;
+    &:nth-child(2) {
+      background-image: url('../images/hr_g2.png');
+    }
+    &:nth-child(3) {
+      background-image: url('../images/hr_g3.png');
+    }
+    &:nth-child(4) {
+      background-image: none;
+    }
+  }
+  &__sub {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  &__text {
+    font-size: 1.2rem;
+    p:first-child {
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: 400;
+    }
+    p {
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+  }
+  &_1 {
+    .group__image {
+      background-image: url('../images/child_03_02.jpg');
+    }
+    .group__info {
+      background-image: url('../images/child_03_03.jpg');
+    }
+  }
+  &_2 {
+    .group__image {
+      background-image: url('../images/child2_07_07_03.jpg');
+    }
+    .group__info {
+      background-image: url('../images/child2_07_07_04.jpg');
+    }
+  }
+  @media screen and (max-width: 30rem) {
+    &__header {
+      font-size: 1.7rem;
+    }
+    &__container {
+      flex-flow: row wrap;
+    }
+    &__image {
+      min-height: 100px;
+      min-width: 100%;
+    }
+  }
+}

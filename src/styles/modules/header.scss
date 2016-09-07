@@ -1,7 +1,7 @@
 .header {
   background: url(../images/top2.jpg) center center no-repeat;
   background-size: cover;
-  padding: 6px 0;
+  padding: 6px 0 0;
   &__container {
     -js-display: flex;
     display: flex;
@@ -47,12 +47,35 @@
     width: 398px;
     height: 395px;
     padding: 2.9rem;
+    @media screen and (max-width: 60rem) {
+      display: none;
+    }
   }
   &__form-title {
     font-family: 'Clinica Pro Rg', arial, sans-serif;
     font-size: 1.25rem;
     text-align: center;
     margin-bottom: 0.8rem;
+  }
+  @media screen and (max-width: 40rem) {
+    &__container {
+      flex-flow: row wrap;
+    }
+    &__col, &__info div {
+      width: 100%;
+      text-align: center;
+    }
+    .slider__desc {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 30rem) {
+    .slider {
+      visibility: hidden;
+    }
+    .nav {
+      visibility: visible;
+    }
   }
 }
 
@@ -90,6 +113,17 @@
         text-align: center;
         &:hover {
           background-color: #FFE295;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 40rem) {
+    & > ul {
+      flex-flow: row wrap;
+      
+      & > li {
+        & > a {
+          clip-path: none;
         }
       }
     }

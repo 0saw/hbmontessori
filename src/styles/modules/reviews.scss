@@ -1,0 +1,83 @@
+.reviews {
+  background: url('../images/feed_bg.png') center center;
+  padding: 1px 0 4rem;
+  h2, &__header {
+    font-size: 3rem;
+    font-family: 'Clinica Pro Rg', arial, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin: 3rem 0 2.5rem 0;
+  }
+  &__item {
+    -js-display: flex;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+  &__image {
+    margin-right: 1rem;
+  }
+  &__text {
+    font-size: 1rem;
+    p {
+      padding: 0 2rem 0 4rem;
+      font-style: italic;
+      color: #585353;
+      font-family: Arial, 'Arial Narrow', sans-serif;
+      position: relative;
+      &:before {
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 24px;
+        background: url("../images/quotes_before.png") center center no-repeat;
+        left: 0px;
+        top: 0px;
+      }
+      &:after {
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 24px;
+        background: url("../images/quotes_after.png") center center no-repeat;
+        right: 0px;
+        bottom: 0px;
+      }
+    }
+  }
+  &__title {
+    color: #749221;
+    font-size: 1.2rem;
+    font-family: 'PF BeauSans Pro';
+    font-weight: bold;
+  }
+  &__parent {
+    font-size: 1.1rem;
+    margin: 1rem 0 2rem 4rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+  @media screen and (max-width: 40rem) {
+    h2, &__header {
+      font-size: 1.7rem;
+    }
+    &__item {
+      flex-flow: row wrap;
+    }
+    &__image {
+      min-width: 100%;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 30rem) {
+    &__text {
+      p {
+        padding: 0;
+        &:after, &:before {
+          display: none;
+        }
+      }
+    }
+  }
+}

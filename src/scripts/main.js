@@ -2,4 +2,11 @@
 
 // const g = 9.81;
 
-var sequences = require('./views/sequence');
+$(function() {
+  var sequences = require('./views/sequence');
+  $('.readMore').readmore({
+    speed: 75,
+    moreLink: '<a href="#" class="button button_readmore">Читать полностью >></a>',
+    lessLink: '<a href="#" class="button button_readmore">Скрыть</a>'
+  });
+});

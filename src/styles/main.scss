@@ -16,12 +16,59 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+html, body {
+  font-family: 'PF BeauSans Pro', sans-serif;
+  font-weight: 400;
+}
 
 .wrapper {
   max-width: $siteWidth;
   margin: 0 auto;
   &_fat {
     max-width: 80rem;
+  }
+  &_video {
+    max-width: 40rem;
+  }
+  &_guest {
+    max-width: 20rem;
+  }
+  &_mac {
+    max-width: 523px;
+    position: relative;
+    margin-top: 5rem;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      margin-left: -1278/2 + px;
+      top: -268px;
+      width: 1278px;
+      height: 720px;
+      z-index: -1;
+      background: url('../images/cabinet_bg.png') center center no-repeat;
+      @media screen and (max-width: 30rem) {
+        display: none;
+      }
+    }
+    .seq-next, .seq-prev {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto 0;
+      width: 60px;
+      height: 62px;
+      z-index: 15;
+      cursor: pointer;
+    }
+    .seq-prev {
+      left: -90px;
+      background: url('../images/arr_prev.png') center center no-repeat;
+    }
+    .seq-next {
+      right: -96px;
+      background: url('../images/arr_next.png') center center no-repeat;
+    }
   }
 }
 

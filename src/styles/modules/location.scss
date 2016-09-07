@@ -1,0 +1,17 @@
+.location {
+  padding: 6rem 0 5rem;
+  background: url('../images/location.jpg') center top no-repeat,
+              url('../images/pix_02.png') center center;
+  &__title {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 300;
+  }
+  &__text {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+  }
+}

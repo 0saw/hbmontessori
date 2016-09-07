@@ -1,0 +1,40 @@
+.footer {
+  margin-top: 5rem;
+  &__container {
+    -js-display: flex;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  &__item {
+    font-size: 1.1rem;
+    &_info {
+      font-family: 'Clinica Pro Rg', arial, sans-serif;
+      font-size: 1.6rem;
+      text-align: right;
+    }
+  }
+  &__info {
+    font-size: 1.3rem;
+    margin: 0rem 0 0.7rem;
+  }
+  &__copyright {
+    text-align: center;
+    padding: 1rem 0 0.5rem;
+    a {
+      text-decoration: none;
+      color: #00B2E5;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.soc {
+  a {
+    text-decoration: none;
+    color: transparent;
+  }
+}
