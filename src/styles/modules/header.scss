@@ -44,11 +44,15 @@
     z-index: 11;
     position: absolute;
     background: url('../images/zakaz.png') center center no-repeat;
-    width: 398px;
+    max-width: 398px;
+    width: 100%;
     height: 395px;
     padding: 2.9rem;
     @media screen and (max-width: 60rem) {
       display: none;
+      .mfp-content & {
+        display: block;
+      }
     }
   }
   &__form-title {
@@ -71,7 +75,7 @@
   }
   @media screen and (max-width: 30rem) {
     .slider {
-      visibility: hidden;
+      /*visibility: hidden;*/
     }
     .nav {
       visibility: visible;
@@ -84,6 +88,7 @@
   z-index: 13;
   top: 0;
   width: 100%;
+  max-width: 100%;
   left: 0;
   &.fixed {
     position: fixed;
@@ -122,6 +127,7 @@
   }
   @media screen and (max-width: 40rem) {
     & > ul {
+      display: none;
       flex-flow: row wrap;
       
       & > li {

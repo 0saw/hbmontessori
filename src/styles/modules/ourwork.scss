@@ -15,7 +15,7 @@
     flex-flow: row nowrap;
   }
   &__item {
-    flex: 1;
+    /*flex: 1;*/
     text-align: center;
     b {
       text-transform: uppercase;
@@ -27,7 +27,7 @@
   @media screen and (max-width: 40rem) {
     padding-bottom: 4rem;
     &__container {
-      flex-flow: row wrap;
+      flex-wrap: wrap;
     }
     &__item {
       min-width: 100%;

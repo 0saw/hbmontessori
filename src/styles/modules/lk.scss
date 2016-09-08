@@ -19,6 +19,7 @@
     flex: 1;
     text-align: center;
     position: relative;
+    max-width: 100%;
     border-right: 1px dotted #666;
     &:last-child {
       border-right-color: rgba(0,0,0,0);
@@ -42,7 +43,7 @@
       flex-flow: row wrap;
     }
     &__item {
-      min-width: 100%;
+      flex: 1 0 auto;
       border-right: 0;
     }
   }

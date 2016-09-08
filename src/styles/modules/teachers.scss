@@ -52,8 +52,9 @@
     justify-content: space-around;
   }
   &__teacher {
+    width: 100%;
     max-width: 30%;
-    flex-grow: 1;
+    flex: 1 0 auto;
     img {
       max-width: 100%;
     }
@@ -70,7 +71,7 @@
   }
   &__title {
     background: url('../images/apluses.png') 7px 24px no-repeat;
-    padding: 1.5rem 0 0rem 34px;
+    padding: 1.5rem 0 0.5rem 34px;
     color: #333;
     line-height: 1.2;
     min-height: 6rem;
@@ -86,11 +87,15 @@
     }
   }
   @media screen and (max-width: 40rem) {
+    padding: 1px 0 2rem;
     h2, &__header {
       font-size: 1.7rem;
     }
+    &__container {
+    }
     &__teacher {
-      min-width: 49%;
+      flex: 1 0 auto;
+      max-width: 49%;
     }
   }
   @media screen and (max-width: 30rem) {
@@ -99,7 +104,7 @@
       justify-content: center;
     }
     &__teacher {
-      min-width: 99%;
+      max-width: 99%;
       img {
         display: block;
         margin: 0 auto;

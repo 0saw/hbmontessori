@@ -19,6 +19,17 @@
 </head>
 <body>
   <!-- @include inc/_browserhappy.html -->
+  <nav class="sidenav" id="sidenav">
+    <span href="#" id="closebtn">&times;</span>
+    <ul>
+      <li><a href="#toddler">Toddler Community</a></li>
+      <li><a href="#primary">Primary Community</a></li>
+      <li><a href="#ourteam">Наша команда</a></li>
+      <li><a href="#cabinet">Личный кабинет</a></li>
+      <li><a href="#location">Как нас найти</a></li>
+    </ul>
+  </nav>
+
   <div id="preloader" class="preloader">
     <div class="preloader__container">
       <svg width="133.8" height="149.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 133.8 149.2">
@@ -52,7 +63,7 @@
           </div>
           <div class="header__col header__info">
             <div>+7 (499) 750 - 13 - 87</div>
-            <a class="button button_header">Закажите обратный звонок</a>
+            <a class="button button_header" href="#popupForm">Закажите обратный звонок</a>
           </div>
         </div>
         <div class="header__desc">
@@ -71,6 +82,9 @@
               <li><a href="#cabinet">Личный кабинет</a></li>
               <li><a href="#location">Как нас найти</a></li>
             </ul>
+            <div class="sidenav--cont">
+              <div id="openSidenav" class="sidenav--open">☰ Меню</div>
+            </div>
           </nav>
           <div class="slider__canvas seq-canvas">
             <div class="slider__item seq-in">
@@ -111,7 +125,7 @@
               </label>
               <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
               <div class="form__button">
-                <a class="button button_form">Записаться</a>
+                <input class="button button_form" type="submit" value="Записаться">
               </div>
             </form>
             <div class="header__warning">*Количество мест в группе ограничено</div>
@@ -159,7 +173,7 @@
             </div>
             <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
             <div class="form__button">
-              <a class="button button_form">Записаться на экскурсию</a>
+              <input class="button button_form" type="submit" value="Записаться на экскурсию">
             </div>
             <div class="enterfee__warning">*Количество мест в группе ограничено</div>
           </fieldset>
@@ -245,7 +259,7 @@
             </div>
             <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
             <div class="form__button">
-              <a class="button button_form">Записаться на экскурсию</a>
+              <input class="button button_form" type="submit" value="Записаться на экскурсию">
             </div>
             <div class="wannabesmart__warning">*Количество мест в группе ограничено</div>
           </fieldset>
@@ -457,7 +471,7 @@
           </div>
           <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
           <div class="form__button">
-            <a class="button button_form">Записаться на экскурсию</a>
+            <input class="button button_form" type="submit" value="Записаться на экскурсию">
           </div>
           <div class="guest__warning">*Количество мест в группе ограничено</div>
         </form>
@@ -542,7 +556,7 @@
         <div class="location__text">
           Мы выбрали это место не случайно – здесь невероятно красиво и тихо, нет городского шума, слышно как поют птицы и течет река. Здесь безопасно и уютно (территория поселка хорошо охраняется). Это идеальное место, где дети могут расти, наслаждаясь природой: видеть как весной расцветают цветы, прилетают птицы, осенью следить как постепенно деревья меняют цвет листьев, а зимой играть с белым пушистым снегом.
         </div>
-        <div class="location__map">
+        <div id="maps" class="location__map">
           <img src="images/map.jpg" alt="">
         </div>
       </div>
@@ -568,7 +582,7 @@
             </div>
             <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
             <div class="form__button">
-              <a class="button button_form">Записаться на экскурсию</a>
+              <input class="button button_form" type="submit" value="Записаться на экскурсию">
             </div>
             <div class="pricecut__warning">*Количество мест в группе ограничено</div>
           </fieldset>
@@ -631,6 +645,76 @@
       </footer>
     </section>
   </div>
+
+  <div style="display: none;">
+    <div id="popupForm" class="popup popup_form header__form">
+      <div class="header__form-title">Заказ обратного звонка</div>
+      <form class="form form_header">
+        <label for="name-32" class="form__field">
+          <input type="text" name="name-32" id="name-32" placeholder="Ваше имя" required=""><span>*</span>
+        </label>
+        <label for="phone-32" class="form__field">
+          <input type="tel" name="phone-32" id="phone-32" placeholder="Телефон" pattern="^[0-9- \(\)\+]{6,24}$" required=""><span>*</span>
+        </label>
+        <label for="email-32" class="form__field">
+          <input type="email" name="email-32" id="email-32" placeholder="E-mail"><span>*</span>
+        </label>
+        <div class="success_message" style="display: none;">Спасибо за заявку. Сотрудники центра свяжутся с вами в рабочее время</div>
+        <div class="form__button">
+          <input class="button button_form" type="submit" value="Заказать">
+        </div>
+      </form>
+    </div>
+  </div>
+
+<div style="display: none;">
+  <div class="box-modal2" id="success-modal">
+    <div class="box-modal2_close arcticmodal-close">закрыть</div>
+    <h3 style="text-align: center;">Спасибо за заявку.<br> Сотрудники центра свяжутся<br> с вами  в рабочее время.</h3>
+  </div>
+</div>
+<!-- <modal> -->
+<div style="display: none;">
+  <div id="popupThanks" class="popup popup_thanks">
+    Спасибо за заявку.<br>
+    Сотрудники центра свяжутся<br>
+    с вами в рабочее время.
+  </div>
+  <div id="popupError" class="popup popup_error">
+    Произошла ошибка.<br>
+    Попробуйте воспользоваться формой позже.
+  </div>
+
+  <div class="box-modal" id="modalzakaz">
+    <div class="box-modal_close arcticmodal-close">закрыть</div>
+    <h3>Заказ обратного звонка</h3>
+    <form id="form" onsubmit="yaCounter23833825.reachGoal('zakaz'); return true;" class="form">
+      <fieldset style="border:none;">
+        <label class="name">
+          <input type="text" value="Имя:">
+          <br class="clear">
+          <span class="error error-empty">*</span><span class="empty error-empty">*</span> </label>
+        <label class="phone">
+          <input type="tel" value="Телефон:" />
+          <br class="clear">
+          <span class="error error-empty">*</span><span class="empty error-empty">*</span> </label>
+        <label class="email">
+          <input type="text" value="E-mail:" />
+          <span class="error error-empty">*</span><span class="empty error-empty">*</span>
+        </label>
+        <div class="clear"></div>
+        <a href="#" data-type="submit">Заказать</a>
+        <div class="clear"></div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+<div style="display: none;">
+  <div class="box-modal1" id="modalzakaz3">
+    <script type="text/javascript" async charset="utf-8" src="http://api-maps.yandex.ru/services/constructor/1.0/js/?sid=kAlTBdcQ0QwhZ0No-G9k73TxUnm4Xhm_&height=600"></script>
+  </div>
+</div>
+
 
   <!-- @if ENV='dev' -->
   <script src="scripts/vendor.js"></script>
