@@ -175,6 +175,9 @@ var frontPage = function(argument) {
     e.preventDefault();
     sideNav.style.width = '0';
   });
+  $('#sidenav a').on('click', function (e) {
+    $(closebtn).trigger('click');
+  });
 
   pageForms();
 };
