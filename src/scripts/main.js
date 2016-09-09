@@ -96,6 +96,18 @@ var pageForms = function () {
       midClick: true
     }); 
   });
+
+  $('.interior__item a').on('click', function () {
+     $.magnificPopup.open({
+      type: 'image',
+      removalDelay: 500,
+      mainClass: 'mfp-zoom-in modal',
+      callbacks: {
+        beforeOpen: function() {}
+      },
+      midClick: true
+    }); 
+  });
 };
 
 
