@@ -13,6 +13,13 @@
           width: 100%;
           white-space: normal;
         }
+        @media screen and (max-width: 40rem) {
+          .button {
+            width: auto;
+            font-size: 0.9rem;
+            padding: 1rem;
+          }
+        }
       }
       &__field {
         position: relative;
@@ -74,6 +81,9 @@
       font-family: 'Myriad Pro', arial, sans-serif;
       font-weight: bold;
       color: #fff;
+      white-space: normal;
+      max-width: 100%;
+      text-align: center;
       font-size: 2rem;
       text-shadow: 0 1px 0 #806955;
       padding: 0 1rem 0 1rem;
@@ -164,6 +174,15 @@
       .form__field {
         flex: 1 0 auto;
         min-width: 100%;
+      }
+      legend {
+        font-size: 1.4rem;
+      }
+      .form__button {
+        .button {
+          font-size: 0.9rem;
+          padding: 1rem;
+        }
       }
     }
   }

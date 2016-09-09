@@ -1,5 +1,5 @@
 .group {
-  padding: 1px 0 1rem;
+  padding: 1px 0.2rem 1rem;
   &__header {
     font-size: 3rem;
     font-family: 'Clinica Pro Rg', arial, sans-serif;
@@ -92,7 +92,7 @@
       background-image: url('../images/child2_07_07_04.jpg');
     }
   }
-  @media screen and (max-width: 30rem) {
+  @media screen and (max-width: 40rem) {
     &__header {
       font-size: 1.7rem;
     }
@@ -103,7 +103,19 @@
       min-width: 100%;
     }
     &__image {
-      
+      display: none;
+    }
+    &__line {
+      font-size: 1rem;
+    }
+    &__text {
+      p, p:first-child {
+        font-size: 1rem;
+      }
+      p:first-child {
+        font-size: 1rem;
+        font-style: normal;
+      }
     }
   }
 }

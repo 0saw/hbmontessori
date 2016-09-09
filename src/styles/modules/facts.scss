@@ -1,6 +1,6 @@
 .facts {
   background: url('../images/facts_bg.png') center center;
-  padding: 1rem 0 4rem;
+  padding: 1rem 0.2rem 4rem;
   &__header {
     font-size: 2.3rem;
     margin: 1rem 0 2rem;
@@ -24,6 +24,18 @@
       padding: 0 0rem 1rem 116px;
       background-position: 16px 0;
     }
+    &:nth-child(2) {
+      background-image: url('../images/icof2.png');
+    }
+    &:nth-child(3) {
+      background-image: url('../images/icof3.png');
+    }
+    &:nth-child(4) {
+      background-image: url('../images/icof4.png');
+    }
+    &:nth-child(5) {
+      background-image: url('../images/icof5.png');
+    }
   }
   @media screen and (max-width: 40rem) {
     &__header {
@@ -34,8 +46,10 @@
     }
     &__item {
       min-width: 100%;
-      &, &:nth-child(2n) {
-        padding-left: 100px;
+      &, &:nth-child(2n), &:nth-child(n) {
+        padding-left: 0;
+        min-height: 0;
+        background: none;
         background-position: 0 0;
       }
     }

@@ -22,4 +22,10 @@
   &__text {
     text-align: center;
   }
+  @media screen and (max-width: 40rem) {
+    h2, &__header {
+      font-size: 1.6rem;
+      margin: 0.5rem 0 0.2rem 0;
+    }
+  }
 }

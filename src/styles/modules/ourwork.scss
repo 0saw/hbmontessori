@@ -26,6 +26,9 @@
   }
   @media screen and (max-width: 40rem) {
     padding-bottom: 4rem;
+    h2, &__header {
+      font-size: 1.6rem;
+    }
     &__container {
       flex-wrap: wrap;
     }

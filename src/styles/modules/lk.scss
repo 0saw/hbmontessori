@@ -38,13 +38,17 @@
     margin-bottom: 0.5rem;
   }
   @media screen and (max-width: 40rem) {
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
     &__container {
       flex-flow: row wrap;
     }
     &__item {
       flex: 1 0 auto;
       border-right: 0;
+    }
+    h2, &__header {
+      font-size: 1.6rem;
+      margin: 1rem 0 0.8rem 0;
     }
   }
 }

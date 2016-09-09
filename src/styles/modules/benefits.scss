@@ -1,7 +1,7 @@
 .benefits {
   background: url('../images/pluses_n.png') top center no-repeat, 
               url('../images/pluses.png') center center;
-  padding: 9rem 0 2rem;
+  padding: 9rem 0.2rem 2rem;
   text-align: center;
   font-family: 'Clinica Pro Rg', sans-serif;
   h1 {
@@ -55,6 +55,15 @@
         padding: 0 0.5rem 1rem 1.9rem;
         background-position: 0 0;
       }
+    }
+    h1 {
+      font-size: 1.6rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+    &__title {
+      font-size: 1.3rem;
     }
   }
 }
