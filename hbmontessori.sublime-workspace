@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"windowRe",
+				"windowResize"
+			],
+			[
+				"transform",
+				"transform-origin"
+			],
+			[
 				"d",
 				"disc"
 			],
@@ -164,15 +176,23 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "prett",
+		"last_filter": "pret",
 		"selected_items":
 		[
 			[
-				"prett",
+				"pret",
 				"HTMLPrettify"
 			],
 			[
-				"pret",
+				"setjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sethtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"prett",
 				"HTMLPrettify"
 			],
 			[
@@ -181,10 +201,6 @@
 			],
 			[
 				"Sethml",
-				"Set Syntax: HTML"
-			],
-			[
-				"sethtml",
 				"Set Syntax: HTML"
 			],
 			[
@@ -198,10 +214,6 @@
 			[
 				"setcss",
 				"Set Syntax: CSS"
-			],
-			[
-				"setjs",
-				"Set Syntax: JavaScript"
 			],
 			[
 				"setscss",
@@ -347,8 +359,6 @@
 	[
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/dist",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/dist/scripts",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/dist/styles",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/inc",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts",
@@ -359,6 +369,39 @@
 	],
 	"file_history":
 	[
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/main.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/styles/modules/helper.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp35377/templates/zt_beauty/css/pd.css",
+		"/C/Users/iamle/AppData/Local/Temp/scp48265/ecogazcomplect.ru/www/.htaccess",
+		"/C/Users/iamle/AppData/Local/Temp/scp34958/templates/zt_beauty/index.php",
+		"/C/Users/iamle/Documents/Work/temp/price-gaz.xls",
+		"/C/Users/iamle/AppData/Local/Temp/scp49550/ecogazcomplect.ru/www/price-gaz.xls",
+		"/C/Users/iamle/Downloads/db_krovatto.sql",
+		"/C/Users/iamle/AppData/Local/Temp/scp55548/templates/zt_beauty/js/flexibility.js",
+		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.244/flexibility.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp35741/templates/zt_beauty/js/main.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp34501/index.php",
+		"/C/Users/iamle/Documents/Work/_inprogress/body-clinic.ru/19.08.16/style.css",
+		"/C/Users/iamle/Documents/Work/_inprogress/body-clinic.ru/19.08.16/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/interior.scss",
+		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.172/flexibility.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/package.json",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/vendors/flexibility.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/teachers.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/lk.scss",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts/main.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/header.scss",
+		"/C/Users/iamle/AppData/Local/Temp/scp32737/override/controllers/front/AuthController.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp33264/controllers/front/AuthController.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp35589/classes/controller/FrontController.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp34955/override/controllers/front/FrontController.php",
+		"/C/Users/iamle/AppData/Local/Temp/scp33476/.htaccess",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/vendors/readmore.js",
+		"/C/Users/iamle/AppData/Local/Temp/scp45221/index.html",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts/views/forms.js",
+		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts/views/sequence.js",
 		"/C/Users/iamle/AppData/Local/Temp/scp25175/templates/zt_beauty/css/k2.css",
 		"/C/Users/iamle/AppData/Local/Temp/scp07879/templates/zt_beauty/css/general.css",
 		"/C/Users/iamle/AppData/Local/Temp/scp25071/templates/zt_beauty/css/template.css",
@@ -367,14 +410,9 @@
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/sidenav.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/dist/styles/main.min.css",
 		"/C/Users/iamle/AppData/Local/Temp/scp51133/wp-content/themes/epixx/page.php",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts/main.js",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/index.html",
 		"/C/Users/iamle/AppData/Local/Temp/scp49589/wp-content/themes/epixx/index.php",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts/views/view.js",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts/views/forms.js",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/scripts/views/sequence.js",
 		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/vendors/vminpoly.js",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/teachers.scss",
 		"/C/Users/iamle/AppData/Local/Temp/scp34793/home/u222227/alena-oil.ru/www/.htaccess",
 		"/C/Users/iamle/AppData/Local/Temp/scp30434/.htaccess",
 		"/C/Users/iamle/AppData/Local/Temp/scp32113/home/u222227/alena-oil.ru/www/catalog/controller/feed/google_sitemap.php",
@@ -384,9 +422,6 @@
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/facts.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/group.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/location.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/main.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/lk.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/interior.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/guest.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/footer.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/ourwork.scss",
@@ -394,13 +429,11 @@
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/dist/scripts/vendor.js",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/dist/scripts/vendor.min.js",
 		"/C/Users/iamle/AppData/Local/Temp/scp30161/mds-ru.com/docs/.htaccess",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/header.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/benefits.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/magnific-popup.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/modal.scss",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/src/styles/modules/sliders.scss",
 		"/C/Users/iamle/AppData/Local/Temp/scp58286/public_html/catalog.php",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/package.json",
 		"/C/Users/iamle/AppData/Local/Temp/scp03482/httpdocs/index.php",
 		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/scripts/main.js",
 		"/C/Users/iamle/AppData/Local/Temp/scp32593/blast_cleaning2/js/js.js",
@@ -430,7 +463,6 @@
 		"/C/Users/iamle/AppData/Local/Temp/scp54335/www/health-spa.ru/wp-content/themes/healthspa/functions.php",
 		"/C/Users/iamle/Documents/Work/_inprogress/tantum/responsive-1/Tantum/src/scripts/main.js",
 		"/C/Users/iamle/AppData/Local/Temp/Rar$EXa0.305/Readmore.js-2.2.0/demo.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/hbmontessori/vendors/readmore.js",
 		"/C/Users/iamle/Documents/Work/_inprogress/hbmontessori.ru/montessory_new/js/readmore.js",
 		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.144/jquery.mockjax.js",
 		"/C/Users/iamle/AppData/Local/Temp/Rar$DIa0.081/readmore.js",
@@ -464,29 +496,7 @@
 		"/C/Users/iamle/AppData/Local/Temp/scp18558/iht/public_html/index.html",
 		"/C/Users/iamle/AppData/Local/Temp/scp20766/public_html/index.php",
 		"/C/Users/iamle/AppData/Local/Temp/scp20694/public_html/index.htm",
-		"/C/Users/iamle/AppData/Local/Temp/scp20311/detki/public_html/index.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/inc/front-slider.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/dist/scripts/vendor.js",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/dist/scripts/vendor.min.js",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/styles/main.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/styles/modules/main.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/inc/pushy.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/news.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/partneram.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/src/scripts/main.coffee",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/otzyvy.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/Geraldzavod/src/styles/modules/reviews.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/src/scripts/views/forms.coffee",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/25.07.16/src/reviews.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/31.08.16/src/reviews.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/cariera.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/proizvodstvo.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/catalog.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/about.html",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/modules/main.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/main.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/styles/modules/_catalog.scss",
-		"/C/Users/iamle/Documents/Work/_inprogress/geralzavod.ru/responsive-2/src/partneram.html"
+		"/C/Users/iamle/AppData/Local/Temp/scp20311/detki/public_html/index.html"
 	],
 	"find":
 	{
@@ -497,6 +507,7 @@
 		"height": 136.0,
 		"where_history":
 		[
+			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\hbmontessori.ru\\hbmontessori\\src\\styles\\modules",
 			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\geralzavod.ru\\Geraldzavod\\src\\scripts",
 			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\,-node_modules/",
 			"C:\\Users\\iamle\\Documents\\Work\\_inprogress\\geralzavod.ru\\responsive-2\\src",
@@ -509,6 +520,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"05",
+			"images",
+			"img",
+			"Кровати в Москве - купить в интернет-магазине krovatto.ru",
+			"windowResize",
+			"pd",
+			"flex",
+			"CustomSubmitOrder",
+			"aut",
+			"mail",
+			"59deg",
+			"even",
+			"Хочу прие",
+			"cabinet",
 			"<p>",
 			" style=\"text-align: center;\" align=\"center\" nowrap=\"nowrap\"",
 			"<td>\n                <p>",
@@ -622,21 +647,7 @@
 			" style=\"text-align: justify;\"",
 			"col pushkino",
 			"col",
-			"col pushkino",
-			"2",
-			"legen",
-			"map",
-			"px",
-			"60rem",
-			"modal",
-			"button_for",
-			"<input class=\"button button_form\" type=\"submit\" value=\"Записаться на экскурсию\">",
-			"button_for",
-			"button_form",
-			"    ",
-			"nav",
-			"a",
-			"header"
+			"col pushkino"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -681,11 +692,6 @@
 			"sheets":
 			[
 			]
-		},
-		{
-			"sheets":
-			[
-			]
 		}
 	],
 	"incremental_find":
@@ -705,18 +711,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -764,14 +763,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 202.0,
 	"status_bar_visible": true,
 	"template_settings":
