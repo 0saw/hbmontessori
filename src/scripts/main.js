@@ -97,8 +97,8 @@ var pageForms = function () {
     }); 
   });
 
-  $('.interior__item a').on('click', function () {
-     $.magnificPopup.open({
+     $('.interior__item').magnificPopup({
+      delegate: 'a',
       type: 'image',
       removalDelay: 500,
       mainClass: 'mfp-zoom-in modal',
@@ -107,7 +107,6 @@ var pageForms = function () {
       },
       midClick: true
     }); 
-  });
 };
 
 
