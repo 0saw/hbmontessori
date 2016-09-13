@@ -31,10 +31,9 @@
   }
 
   var mySequence = sequence(sequenceElement, options);
-  sequences.push(mySequence);
 
   var mySequence2 = sequence(sequenceElement2, options2);
   sequences.push({elem: sequenceElement, seq: mySequence});
   sequences.push({elem: sequenceElement2, seq: mySequence2});
-  return sequences;
+  module.exports = sequences;
 })();

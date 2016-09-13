@@ -122,9 +122,22 @@ var frontPage = function(argument) {
 
   $('.readMore').readmore({
     speed: 75,
-    moreLink: '<a href="#" class="button button_readmore">Читать полностью >></a>',
-    lessLink: '<a href="#" class="button button_readmore">Скрыть</a>'
+    // moreLink: '<a href="#" class="button button_readmore">Читать полностью >></a>',
+    // lessLink: '<a href="#" class="button button_readmore">Скрыть</a>'
+    moreLink: '<div class="teachers__readMore" hidden />',
+    lessLink: '<div class="teachers__readMore" hidden />',
+    maxHeight: 0
   });
+  $('.teachers__title').on('click', function (e) {
+    e.preventDefault();
+    $(this).siblings('.teachers__readMore').trigger('click');
+  });
+  $('.teachers__teacher img').on('click', function (e) {
+    e.preventDefault();
+    $(this).parent().find('.teachers__readMore').trigger('click');
+  });
+
+
 
   var $nav = $('.nav');
   var navOffset = $nav.offset().top;
@@ -155,14 +168,14 @@ var frontPage = function(argument) {
   scrollToElement(".nav a[href='#toddler']", 0);
   scrollToElement(".nav a[href='#primary']", 0);
   scrollToElement(".nav a[href='#ourteam']", 50);
-  scrollToElement(".nav a[href='#cabinet']", 0);
-  scrollToElement(".nav a[href='#location']", 0);
+  scrollToElement(".nav a[href='#cabinet']", 100);
+  scrollToElement(".nav a[href='#location']", 100);
 
   scrollToElement(".sidenav a[href='#toddler']", 0);
   scrollToElement(".sidenav a[href='#primary']", 0);
   scrollToElement(".sidenav a[href='#ourteam']", 50);
-  scrollToElement(".sidenav a[href='#cabinet']", 0);
-  scrollToElement(".sidenav a[href='#location']", 0);
+  scrollToElement(".sidenav a[href='#cabinet']", 100);
+  scrollToElement(".sidenav a[href='#location']", 100);
 
   var sideNavOpen = document.getElementById('openSidenav');
   var sideNav = document.getElementById('sidenav');
