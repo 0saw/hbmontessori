@@ -167,14 +167,14 @@ var frontPage = function(argument) {
   scrollToElement(".nav a[href='#toddler']", 0);
   scrollToElement(".nav a[href='#primary']", 0);
   scrollToElement(".nav a[href='#ourteam']", 50);
-  scrollToElement(".nav a[href='#cabinet']", 100);
-  scrollToElement(".nav a[href='#location']", 100);
+  scrollToElement(".nav a[href='#cabinet']", 60);
+  scrollToElement(".nav a[href='#location']", 60);
 
   scrollToElement(".sidenav a[href='#toddler']", 0);
   scrollToElement(".sidenav a[href='#primary']", 0);
-  scrollToElement(".sidenav a[href='#ourteam']", 50);
-  scrollToElement(".sidenav a[href='#cabinet']", 100);
-  scrollToElement(".sidenav a[href='#location']", 100);
+  scrollToElement(".sidenav a[href='#ourteam']", 0);
+  scrollToElement(".sidenav a[href='#cabinet']", 10);
+  scrollToElement(".sidenav a[href='#location']", 10);
 
   var sideNavOpen = document.getElementById('openSidenav');
   var sideNav = document.getElementById('sidenav');
