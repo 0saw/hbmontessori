@@ -173,8 +173,8 @@ var frontPage = function(argument) {
   scrollToElement(".sidenav a[href='#toddler']", 0);
   scrollToElement(".sidenav a[href='#primary']", 0);
   scrollToElement(".sidenav a[href='#ourteam']", 0);
-  scrollToElement(".sidenav a[href='#cabinet']", 10);
-  scrollToElement(".sidenav a[href='#location']", 10);
+  scrollToElement(".sidenav a[href='#cabinet']", 35);
+  scrollToElement(".sidenav a[href='#location']", 35);
 
   var sideNavOpen = document.getElementById('openSidenav');
   var sideNav = document.getElementById('sidenav');
